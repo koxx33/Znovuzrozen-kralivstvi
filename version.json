@@ -1,0 +1,8 @@
+{
+ "version": "0.7.0",
+ "notes": [
+  "📚 Sbírka karet: všechny karty ze všech balíčků na jednom místě. Objevené karty i jejich vylepšené strany se ukládají napříč kampaněmi, neobjevené jsou schované za otazníkem. U každé karty vidíš všechny strany a kolikrát jsi ji porazil nebo roztrhal. Otevřeš ji v hlavním menu nebo v Menu.",
+  "🎬 Animace karet: objevená karta přiletí z tlačítka Objevit, vylepšená se otočí na druhou stranu, použitá poskočí, zasažený nepřítel se zatřese (ŠVIH!), poražený vybuchne (BUM!), roztrhaná karta se rozpůlí a splněná událost se rozzáří (HOTOVO!).",
+  "Nový úspěch Sběratel (50 karet ve sbírce). Animace se vypnou, když má telefon zapnuté omezení pohybu."
+ ]
+}
