@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.7.4
+# 👑 Znovuzrození království v0.7.6
 
 Komiksová legacy karetní hra v jednom HTML souboru (dříve *Králův odkaz*). Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -21,10 +21,10 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.7.4
-- Probliknutí oken vyřešeno jinak: když je otevřené okno (detail karty, menu, novinky, sbírka, zvuk, dialog), stůl i hlavní menu pod ním se schovají. Telefon tak nemá co vykreslit přes okno, za oknem je jen ztlumené pozadí s hradem.
-- Čitelné oznámení o nové verzi: tmavý text na žlutém pruhu a světlá tlačítka Teď ne / Přeskočit.
-- Ikona Vypnout se zobrazuje na všech telefonech (dřív byl místo ní na Androidu prázdný čtvereček).
+## Novinky ve verzi 0.7.6
+- Blikání se objevilo s verzí 0.4.0 – tehdy přibylo živé pozadí, které leželo pod celou hrou a vše nad ním bylo průhledné. Hra je teď zase postavená jako ve 0.3.0 (bez blikání): stůl má vlastní pevné pozadí a živá krajina s hradem je jen v hlavním menu.
+- Zrušeny pokusy z verzí 0.7.3 a 0.7.4 (vynucené vrstvy, schovávání stolu pod okny) – okna se chovají stejně jako ve 0.3.0.
+- V panelu 🔊 přepínač Pozadí menu: 🎬 živé / ⏸️ stojí / 🚫 vypnuté. Vypnuté znamená úplně stejné menu jako ve 0.3.0.
 
 ## Soubory
 | Soubor | K čemu je |
