@@ -1,6 +1,6 @@
-# 👑 Znovuzrození království v0.7.0
+# 👑 Znovuzrození království v0.7.1
 
-Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
+Komiksová legacy karetní hra v jednom HTML souboru (dříve *Králův odkaz*). Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
 
 ## Hrát
@@ -21,10 +21,9 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.7.0
-- 📚 Sbírka karet: všechny karty ze všech balíčků na jednom místě. Objevené karty i jejich vylepšené strany se ukládají napříč kampaněmi, neobjevené jsou schované za otazníkem. U každé karty vidíš všechny strany a kolikrát jsi ji porazil nebo roztrhal. Otevřeš ji v hlavním menu nebo v Menu.
-- 🎬 Animace karet: objevená karta přiletí z tlačítka Objevit, vylepšená se otočí na druhou stranu, použitá poskočí, zasažený nepřítel se zatřese (ŠVIH!), poražený vybuchne (BUM!), roztrhaná karta se rozpůlí a splněná událost se rozzáří (HOTOVO!).
-- Nový úspěch Sběratel (50 karet ve sbírce). Animace se vypnou, když má telefon zapnuté omezení pohybu.
+## Novinky ve verzi 0.7.1
+- Oprava problikávání karet na mobilu: karta se při stisknutí už neposouvá (posun nutil telefon obrázek znovu vykreslit), obrázky karet se drží v paměti grafiky a po akci se nenačítají znovu.
+- Detail karty se ukáže až s hotovým obrázkem a karta na stole se při otevření detailu jen jemně ztlumí, místo aby zmizela.
 
 ## Soubory
 | Soubor | K čemu je |
