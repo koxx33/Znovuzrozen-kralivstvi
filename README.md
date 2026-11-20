@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.7.7
+# 👑 Znovuzrození království v0.7.8
 
 Komiksová legacy karetní hra v jednom HTML souboru (dříve *Králův odkaz*). Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -21,9 +21,9 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.7.7
-- Blikání potvrzeno a vyřešeno: dělala ho pohyblivá krajina v hlavním menu. Nově je krajina s hradem v menu jako pevný obrázek přímo v pozadí menu – vypadá stejně (hrad, mlýn, mraky, praporky), jen se nehýbe, a nic nebliká.
-- Pohyblivou krajinu si můžeš dál zapnout v panelu 🔊 (Pozadí menu: 🖼️ obrázek / 🎬 živé / 🚫 vypnuté), na některých telefonech ale může blikat.
+## Novinky ve verzi 0.7.8
+- Pokus: nové živé pozadí menu. Mraky, ptáci, mlýn, kouř a praporky se kreslí do jednoho plátna přímo v menu (ne jako vrstva pod ním). Zapneš ho v panelu 🔊 → Pozadí menu: 🎬 živé (pokus). Když bude dál blikat, v další verzi zůstane jen obrázek.
+- Výchozí zůstává 🖼️ obrázek. Živé pozadí se zastaví, když je otevřené okno nebo hra, a kreslí se nejvýš 30× za sekundu.
 
 ## Soubory
 | Soubor | K čemu je |

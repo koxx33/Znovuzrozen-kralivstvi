@@ -1,7 +1,7 @@
 {
- "version": "0.7.7",
+ "version": "0.7.8",
  "notes": [
-  "Blikání potvrzeno a vyřešeno: dělala ho pohyblivá krajina v hlavním menu. Nově je krajina s hradem v menu jako pevný obrázek přímo v pozadí menu – vypadá stejně (hrad, mlýn, mraky, praporky), jen se nehýbe, a nic nebliká.",
-  "Pohyblivou krajinu si můžeš dál zapnout v panelu 🔊 (Pozadí menu: 🖼️ obrázek / 🎬 živé / 🚫 vypnuté), na některých telefonech ale může blikat."
+  "Pokus: nové živé pozadí menu. Mraky, ptáci, mlýn, kouř a praporky se kreslí do jednoho plátna přímo v menu (ne jako vrstva pod ním). Zapneš ho v panelu 🔊 → Pozadí menu: 🎬 živé (pokus). Když bude dál blikat, v další verzi zůstane jen obrázek.",
+  "Výchozí zůstává 🖼️ obrázek. Živé pozadí se zastaví, když je otevřené okno nebo hra, a kreslí se nejvýš 30× za sekundu."
  ]
 }
