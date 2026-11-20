@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="version" content="0.7.2">
+<meta name="version" content="0.7.3">
 <meta name="theme-color" content="#0e171b">
 <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>Znovuzrození království v0.7.2</title>
+<title>Znovuzrození království v0.7.3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap&subset=latin-ext" rel="stylesheet">
 <style>
 /* =========================================================
@@ -649,6 +649,13 @@ body{background:transparent}
 .board .card.zk:nth-child(4n+2),.board .card.zk:nth-child(4n+3){rotate:.8deg}
 #board .card.zk:active:not(:disabled){box-shadow:3px 3px 0 #111;filter:brightness(.96)}
 #board .card.lifted{opacity:.45!important;transition:opacity .25s}
+ /* 0.7.3 pevné vrstvy: zabrání prohození pořadí na Androidu */
+header,footer,#home,.modal,#quit,#saved,#scene{transform:translateZ(0);-webkit-transform:translateZ(0);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+#toast,#ann{will-change:transform}
+.modal{isolation:isolate;overscroll-behavior:contain}
+.mc,#home{overscroll-behavior:contain}
+main{position:relative;z-index:1;isolation:isolate}
+body.modal-on{overflow:hidden}
 </style>
 </head>
 <body>
@@ -656,7 +663,7 @@ body{background:transparent}
 
 <header>
  <div class="top">
-  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.2</small></div>
+  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.3</small></div>
   <div class="tctl">
    <div class="badge">Kolo <span id="h-round">1</span> · 🂠 <span id="h-deck">0</span></div>
    <button class="ib" id="b-sound" title="Zvuky" aria-label="Zvuky">🔊</button>
@@ -713,7 +720,7 @@ body{background:transparent}
  <div class="updbar" id="home-upd" hidden></div>
  <div id="home-main"></div>
  <div class="tiles" id="home-tiles"></div>
- <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.2 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
+ <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.3 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
 </div></div>
 <div id="toast"></div>
 <div id="quit" role="dialog" aria-modal="true" aria-label="Hra vypnuta"><div class="mc">
@@ -862,14 +869,17 @@ body{background:transparent}
 <script>
 'use strict';
 /* =========================================================
-   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.2 (dříve Králův odkaz)
+   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.3 (dříve Králův odkaz)
    Jeden stav (state), jedno vykreslení (render), akce bez obalování.
    ========================================================= */
-const VERSION='0.7.2';
+const VERSION='0.7.3';
 const SAVE_KEY='kraluvOdkazSaveV2';        // stejný klíč jako edice 8 → stará kampaň se načte
 const SLOT_PREFIX='kraluvOdkazSlot4_';
 const SOUND_KEY='kraluvOdkazSound';
 const CHANGELOG=[
+ ['0.7.3',[
+  'Oprava probliknutí oken na Androidu (Chrome i Firefox): z videa bylo vidět, že se na jeden snímek vykreslil obsah pod oknem (stůl nebo hlavní menu) přes otevřené okno. Okna, horní lišta, spodní tlačítka, menu i oznámení mají teď pevné pořadí vrstev, takže je telefon už nemůže na okamžik prohodit.',
+  'Pod otevřeným oknem se stránka neposouvá a posouvání v okně se nepřenáší na hru za ním.']],
  ['0.7.2',[
   'Další oprava problikávání podle videa: při otevření a zavření detailu karty telefon na jeden snímek nestihl překreslit obrazovku. Příčinou bylo hlavně živé pozadí – při každém okně se zastavovalo a znovu rozjíždělo a ve hře se tmavilo náročným filtrem.',
   'Ve hře je teď pozadí ztlumené jednoduchou vrstvou a stojí (živé je jen v hlavním menu). Karty už nedrží zbytečné grafické vrstvy, které na mobilu zabíraly paměť.',
@@ -2465,7 +2475,7 @@ function flyCard(from,to,back){
 function openSheet(id){
  if(!byId(id))return;ui.detail=id;renderSheet();
  const sh=$('sheet'),src=boardCard(id),dst=$('sheet-body').querySelector('.dgrid>.card'),img=dst&&dst.querySelector('img');
- sh.classList.add('open','flying');
+ sh.classList.add('open','flying');document.body.classList.add('modal-on');
  const go=()=>{sh.classList.remove('flying');
   if(src&&!calmMotion()){src.classList.add('lifted');sound('page');const an=flyCard(src,dst);const un=()=>src.classList.remove('lifted');if(an)an.finished.then(un,un);else un();}
   setTimeout(()=>$('sheet-body').querySelector('.act:not(:disabled)')?.focus({preventScroll:true}),calmMotion()?30:480);};
@@ -2475,7 +2485,7 @@ function openSheet(id){
 function closeSheet(){
  const sh=$('sheet');if(!sh.classList.contains('open')){ui.detail=null;return;}
  const id=ui.detail,src=boardCard(id),dst=$('sheet-body').querySelector('.dgrid>.card');ui.detail=null;
- const done=()=>{sh.classList.remove('open','closing');document.querySelectorAll('#board .card.lifted').forEach(el=>el.classList.remove('lifted'));};
+ const done=()=>{sh.classList.remove('open','closing');syncModalLock();document.querySelectorAll('#board .card.lifted').forEach(el=>el.classList.remove('lifted'));};
  if(src)src.classList.add('lifted');
  const an=src&&byId(id)?flyCard(src,dst,true):null;
  if(an){sh.classList.add('closing');an.finished.then(done,done);}else done();
@@ -2656,10 +2666,12 @@ document.addEventListener('keydown',e=>{if(!$('m-guide').classList.contains('ope
 const MODALS={collection:'m-collection',cview:'m-cview',event:'m-event',sound:'m-sound',newgame:'m-newgame',menu:'m-menu',campaign:'m-campaign',map:'m-map',world:'m-world',guide:'m-guide',news:'m-news',end:'m-end'};
 const RENDERERS={collection:()=>renderCollection(),event:()=>renderEvent(),sound:()=>renderSound(),guide:()=>renderRules(),newgame:renderNewGame,menu:renderMenu,campaign:renderCampaign,map:renderMap,world:renderWorld,news:renderNews};
 function openModal(name){
+ document.body.classList.add('modal-on');
  if(name==='world')$('m-map').classList.remove('open');
  RENDERERS[name]?.();$(MODALS[name]).classList.add('open');
 }
-function closeModal(el){if(el.id==='sheet'){closeSheet();return;}el.classList.remove('open');}
+function closeModal(el){if(el.id==='sheet'){closeSheet();return;}el.classList.remove('open');syncModalLock();}
+function syncModalLock(){setTimeout(()=>document.body.classList.toggle('modal-on',!!document.querySelector('.modal.open')),0);}
 function closeAllModals(){document.querySelectorAll('.modal.open').forEach(m=>{if(m.id!=='dlg')closeModal(m);});}
 function refreshOpenModals(){for(const[n,id]of Object.entries(MODALS))if($(id).classList.contains('open'))RENDERERS[n]?.();}
 
