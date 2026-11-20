@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="version" content="0.7.1">
+<meta name="version" content="0.7.2">
 <meta name="theme-color" content="#0e171b">
 <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>Znovuzrození království v0.7.1</title>
+<title>Znovuzrození království v0.7.2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap&subset=latin-ext" rel="stylesheet">
 <style>
 /* =========================================================
@@ -508,7 +508,8 @@ footer button{font-size:1.05rem;letter-spacing:.8px}
 #scene{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;transition:filter .8s}
 #scene svg{position:absolute;inset:0;width:100%;height:100%;display:block}
 #scene::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,transparent 30%,#0007 100%);transition:background .8s}
-body.ingame #scene{filter:brightness(.55) saturate(.8)}
+body.ingame #scene::before{content:"";position:absolute;inset:0;z-index:1;background:#08121299}
+body.ingame #scene *{animation-play-state:paused!important}
 body.athome>header,body.athome>main,body.athome>footer{visibility:hidden}
 body.ingame.danger #scene::after{background:radial-gradient(ellipse at 50% 40%,#ff3d4f22 10%,#a0001a88 100%)}
 body.ingame.danger #scene .sun circle:first-child{fill:#ff8a3d}
@@ -599,7 +600,6 @@ body{background:transparent}
 #sheet.closing .mc{background:transparent;border-color:transparent;box-shadow:none;transition:all .2s}
 #sheet.closing .mc>*:not(.dgrid),#sheet.closing .dgrid>*:not(.card){opacity:0;transition:opacity .15s}
 .modal{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
-body:has(.modal.open) #scene *{animation-play-state:paused!important}
  /* 0.6.0 obsazení, políčka, trvalé karty */
 .card .lock{position:absolute;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;text-align:center;padding:4px;background:repeating-linear-gradient(45deg,#0000 0 10px,#1118 10px 13px),#33000d70;color:#fff;font:400 clamp(.7rem,9cqw,1.05rem)/1.05 var(--cm);letter-spacing:.5px;-webkit-text-stroke:.6px #111;text-shadow:2px 2px 0 #111}
 .card.blocked .prod{opacity:.45;text-decoration:line-through}
@@ -648,8 +648,6 @@ body:has(.modal.open) #scene *{animation-play-state:paused!important}
 .board .card.zk:nth-child(4n+1),.board .card.zk:nth-child(4n+4){rotate:-.8deg}
 .board .card.zk:nth-child(4n+2),.board .card.zk:nth-child(4n+3){rotate:.8deg}
 #board .card.zk:active:not(:disabled){box-shadow:3px 3px 0 #111;filter:brightness(.96)}
-#board .card{will-change:transform;backface-visibility:hidden;-webkit-backface-visibility:hidden}
-.card .art{backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(0)}
 #board .card.lifted{opacity:.45!important;transition:opacity .25s}
 </style>
 </head>
@@ -658,7 +656,7 @@ body:has(.modal.open) #scene *{animation-play-state:paused!important}
 
 <header>
  <div class="top">
-  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.1</small></div>
+  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.2</small></div>
   <div class="tctl">
    <div class="badge">Kolo <span id="h-round">1</span> · 🂠 <span id="h-deck">0</span></div>
    <button class="ib" id="b-sound" title="Zvuky" aria-label="Zvuky">🔊</button>
@@ -715,7 +713,7 @@ body:has(.modal.open) #scene *{animation-play-state:paused!important}
  <div class="updbar" id="home-upd" hidden></div>
  <div id="home-main"></div>
  <div class="tiles" id="home-tiles"></div>
- <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.1 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
+ <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.2 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
 </div></div>
 <div id="toast"></div>
 <div id="quit" role="dialog" aria-modal="true" aria-label="Hra vypnuta"><div class="mc">
@@ -864,14 +862,18 @@ body:has(.modal.open) #scene *{animation-play-state:paused!important}
 <script>
 'use strict';
 /* =========================================================
-   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.1 (dříve Králův odkaz)
+   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.2 (dříve Králův odkaz)
    Jeden stav (state), jedno vykreslení (render), akce bez obalování.
    ========================================================= */
-const VERSION='0.7.1';
+const VERSION='0.7.2';
 const SAVE_KEY='kraluvOdkazSaveV2';        // stejný klíč jako edice 8 → stará kampaň se načte
 const SLOT_PREFIX='kraluvOdkazSlot4_';
 const SOUND_KEY='kraluvOdkazSound';
 const CHANGELOG=[
+ ['0.7.2',[
+  'Další oprava problikávání podle videa: při otevření a zavření detailu karty telefon na jeden snímek nestihl překreslit obrazovku. Příčinou bylo hlavně živé pozadí – při každém okně se zastavovalo a znovu rozjíždělo a ve hře se tmavilo náročným filtrem.',
+  'Ve hře je teď pozadí ztlumené jednoduchou vrstvou a stojí (živé je jen v hlavním menu). Karty už nedrží zbytečné grafické vrstvy, které na mobilu zabíraly paměť.',
+  'Nový vypínač 🎬 Animace karet v panelu 🔊 – kdyby to na některém telefonu dál blikalo, jde vypnout let karet do detailu i komiksové efekty.']],
  ['0.7.1',[
   'Oprava problikávání karet na mobilu: karta se při stisknutí už neposouvá (posun nutil telefon obrázek znovu vykreslit), obrázky karet se drží v paměti grafiky a po akci se nenačítají znovu.',
   'Detail karty se ukáže až s hotovým obrázkem a karta na stole se při otevření detailu jen jemně ztlumí, místo aby zmizela.']],
@@ -1620,7 +1622,7 @@ const CH=[
  {k:'town',n:'Kovárna a zvon',ic:'🔔',v:55,p:'amb'},
  {k:'fire',n:'Praskání ohně',ic:'🔥',v:45,p:'amb'}];
 const SET={};CH.forEach(c=>SET[c.k]={on:true,v:c.v});
-const AOPT={track:'auto',anim:true};
+const AOPT={track:'auto',anim:true,cardfx:true};
 try{const o=JSON.parse(localStorage.getItem(AUDIO_KEY)||'{}');
  if(o.ch)for(const k in o.ch)if(SET[k])SET[k]={on:!!o.ch[k].on,v:Math.max(0,Math.min(100,+o.ch[k].v||0))};
  if(o.opt)Object.assign(AOPT,o.opt);
@@ -2443,7 +2445,7 @@ function render(){
 }
 
 /* ---------- detail karty ---------- */
-const calmMotion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+const calmMotion=()=>AOPT.cardfx===false||matchMedia('(prefers-reduced-motion: reduce)').matches;
 const boardCard=id=>document.querySelector(`#board .card[data-id="${id}"]`);
 /* karta se zvedne ze stolu, otočí se a přiletí do detailu (plovoucí kopie nad oknem) */
 function flyCard(from,to,back){
@@ -2592,7 +2594,8 @@ function renderSound(){
  const cur=MUS.cur?TRACKS[MUS.cur].n:null;
  $('snd-now').textContent=!chOn('music')?'Hudba je vypnutá.':cur?`Právě hraje: ${cur}`:'Hudba začne po prvním klepnutí.';
  $('snd-opts').innerHTML=`<button data-op="anim" class="${AOPT.anim?'on':''}" aria-pressed="${AOPT.anim}">${AOPT.anim?'🎬 Animace pozadí':'⏸️ Pozadí stojí'}</button>`+
-  `<button data-op="vib" class="${canVibrate&&vibOn?'on':''}" aria-pressed="${canVibrate&&vibOn}">📳 ${!canVibrate?'Bez vibrací':vibOn?'Vibrace':'Vibrace vyp.'}</button>`;
+  `<button data-op="vib" class="${canVibrate&&vibOn?'on':''}" aria-pressed="${canVibrate&&vibOn}">📳 ${!canVibrate?'Bez vibrací':vibOn?'Vibrace':'Vibrace vyp.'}</button>`+
+  `<button data-op="cardfx" class="${AOPT.cardfx?'on':''}" aria-pressed="${AOPT.cardfx}">${AOPT.cardfx?'🎬 Animace karet':'⏹️ Karty bez animací'}</button>`;
 }
 function soundChanged(){applyVolumes();localStorage.setItem(SOUND_KEY,SET.master.on?'1':'0');saveAudio();audioUpdate();}
 $('m-sound').addEventListener('click',e=>{
@@ -2600,6 +2603,7 @@ $('m-sound').addEventListener('click',e=>{
  if(t.dataset.tg){const k=t.dataset.tg;SET[k].on=!SET[k].on;if(SET[k].on&&!SET[k].v)SET[k].v=50;ac();soundChanged();sound('click');}
  else if(t.dataset.tr){AOPT.track=t.dataset.tr;saveAudio();ac();if(AOPT.track!=='auto'&&!chOn('music')){SET.music.on=true;SET.master.on=true;applyVolumes();}musStop();soundChanged();}
  else if(t.dataset.op==='anim'){AOPT.anim=!AOPT.anim;saveAudio();sceneUpdate();sound('click');}
+ else if(t.dataset.op==='cardfx'){AOPT.cardfx=!AOPT.cardfx;saveAudio();sound('click');}
  else if(t.dataset.op==='vib'){if(!canVibrate){toast('Tento prohlížeč vibrace nepodporuje.');return;}vibOn=!vibOn;localStorage.setItem(VIB_KEY,vibOn?'1':'0');vib('hit');}
  renderSound();render();
 });
