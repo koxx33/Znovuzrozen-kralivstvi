@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="version" content="0.7.3">
+<meta name="version" content="0.7.4">
 <meta name="theme-color" content="#0e171b">
 <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>Znovuzrození království v0.7.3</title>
+<title>Znovuzrození království v0.7.4</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap&subset=latin-ext" rel="stylesheet">
 <style>
 /* =========================================================
@@ -656,6 +656,13 @@ header,footer,#home,.modal,#quit,#saved,#scene{transform:translateZ(0);-webkit-t
 .mc,#home{overscroll-behavior:contain}
 main{position:relative;z-index:1;isolation:isolate}
 body.modal-on{overflow:hidden}
+ /* 0.7.4 pod oknem nic není – nemá co probliknout */
+body.modal-on>header,body.modal-on>main,body.modal-on>footer,body.modal-on #home>.hw{visibility:hidden}
+body.modal-on .modal{background:#08121266}
+/* čitelná aktualizace */
+.updbar ul,.updbar li{color:#1a1a1a!important;opacity:1}
+.updbar .ub button.sec{background:#fff!important;color:#111!important}
+.ti .pw{width:1.15em;height:1.15em;display:inline-block;vertical-align:-.15em}
 </style>
 </head>
 <body>
@@ -663,7 +670,7 @@ body.modal-on{overflow:hidden}
 
 <header>
  <div class="top">
-  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.3</small></div>
+  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.7.4</small></div>
   <div class="tctl">
    <div class="badge">Kolo <span id="h-round">1</span> · 🂠 <span id="h-deck">0</span></div>
    <button class="ib" id="b-sound" title="Zvuky" aria-label="Zvuky">🔊</button>
@@ -720,7 +727,7 @@ body.modal-on{overflow:hidden}
  <div class="updbar" id="home-upd" hidden></div>
  <div id="home-main"></div>
  <div class="tiles" id="home-tiles"></div>
- <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.3 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
+ <div class="hfoot"><button data-open="news">⬇️ Verze 0.7.4 · novinky</button><br>Hra se ukládá automaticky po každé akci.</div>
 </div></div>
 <div id="toast"></div>
 <div id="quit" role="dialog" aria-modal="true" aria-label="Hra vypnuta"><div class="mc">
@@ -757,7 +764,7 @@ body.modal-on{overflow:hidden}
  <button class="wide-btn sec" data-open="guide">📖 Pravidla</button>
  <button class="wide-btn sec" data-open="news">📜 Novinky a aktualizace</button>
  <button class="wide-btn" id="b-eval">🏆 Vyhodnotit kampaň</button>
- <button class="wide-btn off" id="b-quit">⏻ Vypnout hru</button>
+ <button class="wide-btn off" id="b-quit"><span class="ti"><svg class="pw" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v8M6.4 6.6a8 8 0 1 0 11.2 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span> Vypnout hru</button>
  <button class="wide-btn danger" id="b-reset">⚠️ Smazat kampaň a začít znovu</button>
 </div></div>
 
@@ -869,14 +876,18 @@ body.modal-on{overflow:hidden}
 <script>
 'use strict';
 /* =========================================================
-   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.3 (dříve Králův odkaz)
+   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.7.4 (dříve Králův odkaz)
    Jeden stav (state), jedno vykreslení (render), akce bez obalování.
    ========================================================= */
-const VERSION='0.7.3';
+const VERSION='0.7.4';
 const SAVE_KEY='kraluvOdkazSaveV2';        // stejný klíč jako edice 8 → stará kampaň se načte
 const SLOT_PREFIX='kraluvOdkazSlot4_';
 const SOUND_KEY='kraluvOdkazSound';
 const CHANGELOG=[
+ ['0.7.4',[
+  'Probliknutí oken vyřešeno jinak: když je otevřené okno (detail karty, menu, novinky, sbírka, zvuk, dialog), stůl i hlavní menu pod ním se schovají. Telefon tak nemá co vykreslit přes okno, za oknem je jen ztlumené pozadí s hradem.',
+  'Čitelné oznámení o nové verzi: tmavý text na žlutém pruhu a světlá tlačítka Teď ne / Přeskočit.',
+  'Ikona Vypnout se zobrazuje na všech telefonech (dřív byl místo ní na Androidu prázdný čtvereček).']],
  ['0.7.3',[
   'Oprava probliknutí oken na Androidu (Chrome i Firefox): z videa bylo vidět, že se na jeden snímek vykreslil obsah pod oknem (stůl nebo hlavní menu) přes otevřené okno. Okna, horní lišta, spodní tlačítka, menu i oznámení mají teď pevné pořadí vrstev, takže je telefon už nemůže na okamžik prohodit.',
   'Pod otevřeným oknem se stránka neposouvá a posouvání v okně se nepřenáší na hru za ním.']],
@@ -1818,12 +1829,12 @@ function ask({title='Opravdu?',text='',ok='Potvrdit',cancel='Zrušit',danger=fal
   const m=$('dlg'),inp=$('dlg-in'),okb=$('dlg-ok'),nob=$('dlg-no');
   $('dlg-t').textContent=title;$('dlg-p').textContent=text;okb.textContent=ok;nob.textContent=cancel;okb.classList.toggle('danger',danger);
   inp.hidden=input==null;if(input!=null){inp.value=input;}
-  const done=v=>{m.classList.remove('open');okb.onclick=nob.onclick=null;m.onclick=null;document.removeEventListener('keydown',key,true);res(v);};
+  const done=v=>{m.classList.remove('open');syncModalLock();okb.onclick=nob.onclick=null;m.onclick=null;document.removeEventListener('keydown',key,true);res(v);};
   const key=e=>{if(e.key==='Escape'){e.stopPropagation();done(input!=null?null:false);}if(e.key==='Enter'&&input!=null){e.preventDefault();done(inp.value);}};
   okb.onclick=()=>done(input!=null?inp.value:true);nob.onclick=()=>done(input!=null?null:false);
   m.onclick=e=>{if(e.target===m)done(input!=null?null:false);};
   document.addEventListener('keydown',key,true);
-  m.classList.add('open');(input!=null?inp:okb).focus();
+  m.classList.add('open');document.body.classList.add('modal-on');(input!=null?inp:okb).focus();
  });
 }
 
@@ -2485,6 +2496,7 @@ function openSheet(id){
 function closeSheet(){
  const sh=$('sheet');if(!sh.classList.contains('open')){ui.detail=null;return;}
  const id=ui.detail,src=boardCard(id),dst=$('sheet-body').querySelector('.dgrid>.card');ui.detail=null;
+ if(![...document.querySelectorAll('.modal.open')].some(m=>m.id!=='sheet'))document.body.classList.remove('modal-on');
  const done=()=>{sh.classList.remove('open','closing');syncModalLock();document.querySelectorAll('#board .card.lifted').forEach(el=>el.classList.remove('lifted'));};
  if(src)src.classList.add('lifted');
  const an=src&&byId(id)?flyCard(src,dst,true):null;
@@ -2570,7 +2582,7 @@ function renderHome(){
   :`<button class="hbtn go" id="h-new">▶ Začít kampaň</button><div class="hinfo" style="margin-top:8px">Deset kapitol, tři rozšíření a Válka o korunu. Nejdřív si vyber obtížnost.</div>`;
  const tile=(id,icon,label,on)=>`<button class="tile ${on===false?'off':''}" id="${id}"><span class="ti">${icon}</span><span class="tl">${label}</span></button>`;
  $('home-tiles').innerHTML=tile('t-rules','📖','Pravidla')+tile('t-camp','🗺️','Kampaň')+tile('t-sound',soundOn?'🔊':'🔇',soundOn?'Zvuk a hudba':'Zvuk vyp.',soundOn)+
-  tile('t-vib','📳',!canVibrate?'Bez vibrací':vibOn?'Vibrace':'Vibrace vyp.',canVibrate&&vibOn)+tile('t-fs','⛶',document.fullscreenElement?'Zmenšit':'Na celou')+tile('t-col','📚','Sbírka')+tile('t-news','📜','Novinky')+`<button class="tile quit" id="t-quit"><span class="ti">⏻</span><span class="tl">Vypnout</span></button>`;
+  tile('t-vib','📳',!canVibrate?'Bez vibrací':vibOn?'Vibrace':'Vibrace vyp.',canVibrate&&vibOn)+tile('t-fs','⛶',document.fullscreenElement?'Zmenšit':'Na celou')+tile('t-col','📚','Sbírka')+tile('t-news','📜','Novinky')+`<button class="tile quit" id="t-quit"><span class="ti"><svg class="pw" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v8M6.4 6.6a8 8 0 1 0 11.2 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></span><span class="tl">Vypnout</span></button>`;
 }
 function openNewGame(){
  ngDiff=hasSave()?state.legacy.difficulty:'normal';renderNewGame();openModal('newgame');

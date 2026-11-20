@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.7.3
+# 👑 Znovuzrození království v0.7.4
 
 Komiksová legacy karetní hra v jednom HTML souboru (dříve *Králův odkaz*). Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -21,9 +21,10 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.7.3
-- Oprava probliknutí oken na Androidu (Chrome i Firefox): z videa bylo vidět, že se na jeden snímek vykreslil obsah pod oknem (stůl nebo hlavní menu) přes otevřené okno. Okna, horní lišta, spodní tlačítka, menu i oznámení mají teď pevné pořadí vrstev, takže je telefon už nemůže na okamžik prohodit.
-- Pod otevřeným oknem se stránka neposouvá a posouvání v okně se nepřenáší na hru za ním.
+## Novinky ve verzi 0.7.4
+- Probliknutí oken vyřešeno jinak: když je otevřené okno (detail karty, menu, novinky, sbírka, zvuk, dialog), stůl i hlavní menu pod ním se schovají. Telefon tak nemá co vykreslit přes okno, za oknem je jen ztlumené pozadí s hradem.
+- Čitelné oznámení o nové verzi: tmavý text na žlutém pruhu a světlá tlačítka Teď ne / Přeskočit.
+- Ikona Vypnout se zobrazuje na všech telefonech (dřív byl místo ní na Androidu prázdný čtvereček).
 
 ## Soubory
 | Soubor | K čemu je |
