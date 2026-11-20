@@ -1,8 +1,7 @@
 {
- "version": "0.7.6",
+ "version": "0.7.7",
  "notes": [
-  "Blikání se objevilo s verzí 0.4.0 – tehdy přibylo živé pozadí, které leželo pod celou hrou a vše nad ním bylo průhledné. Hra je teď zase postavená jako ve 0.3.0 (bez blikání): stůl má vlastní pevné pozadí a živá krajina s hradem je jen v hlavním menu.",
-  "Zrušeny pokusy z verzí 0.7.3 a 0.7.4 (vynucené vrstvy, schovávání stolu pod okny) – okna se chovají stejně jako ve 0.3.0.",
-  "V panelu 🔊 přepínač Pozadí menu: 🎬 živé / ⏸️ stojí / 🚫 vypnuté. Vypnuté znamená úplně stejné menu jako ve 0.3.0."
+  "Blikání potvrzeno a vyřešeno: dělala ho pohyblivá krajina v hlavním menu. Nově je krajina s hradem v menu jako pevný obrázek přímo v pozadí menu – vypadá stejně (hrad, mlýn, mraky, praporky), jen se nehýbe, a nic nebliká.",
+  "Pohyblivou krajinu si můžeš dál zapnout v panelu 🔊 (Pozadí menu: 🖼️ obrázek / 🎬 živé / 🚫 vypnuté), na některých telefonech ale může blikat."
  ]
 }
