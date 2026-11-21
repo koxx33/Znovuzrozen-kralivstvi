@@ -1,5 +1,5 @@
 // Znovuzrození království – service worker (offline + aktualizace jen po potvrzení)
-const VERSION='0.8.0';
+const VERSION='0.9.0';
 const CACHE='znovuzrozeni-kralovstvi-'+VERSION;
 const FONTS='znovuzrozeni-kralovstvi-fonty';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png','./apple-touch-icon.png'];
@@ -9,7 +9,7 @@ self.addEventListener('install',e=>{
 });
 self.addEventListener('message',e=>{if(e.data==='SKIP')self.skipWaiting();});
 self.addEventListener('activate',e=>{
- e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith('kraluv-odkaz-')||k.startsWith('znovuzrozeni-kralovstvi-'))&&k!==CACHE&&k!==FONTS).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
+ e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('znovuzrozeni-kralovstvi-')&&k!==CACHE&&k!==FONTS).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
 });
 self.addEventListener('fetch',e=>{
  const u=new URL(e.request.url);if(e.request.method!=='GET')return;

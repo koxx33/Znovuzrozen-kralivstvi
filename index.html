@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="version" content="0.8.0">
+<meta name="version" content="0.9.0">
 <meta name="theme-color" content="#0e171b">
 <meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>Znovuzrození království v0.8.0</title>
+<title>Znovuzrození království v0.9.0</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap&subset=latin-ext" rel="stylesheet">
 <style>
 /* =========================================================
-   ZNOVUZROZENÍ KRÁLOVSTVÍ (dříve Králův odkaz) – základní rozvržení
+   ZNOVUZROZENÍ KRÁLOVSTVÍ – základní rozvržení
    ========================================================= */
 :root{--gold:#e9c77d;--bg:#0e171b;--panel:#172329;--card:#213037;--line:#4b6063;--muted:#c1c9c7;--text:#f5f5f4}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -652,7 +652,7 @@ body.bgimg #home{background:radial-gradient(ellipse at 50% 45%,#10201f10 0%,#102
 #homecv[hidden]{display:none}
 #home>.hw{position:relative;z-index:1}
 body.bglive #home{background:#10201f}
- /* 0.8.0 průvodce, očista, síň slávy */
+ /* 0.8.0 průvodce, oběť koruny, síň slávy */
 #tut{position:fixed;inset:0;z-index:690;pointer-events:none}
 #tut[hidden]{display:none}
 #tut-ring{position:fixed;border:4px solid var(--gold);border-radius:12px;box-shadow:0 0 0 9999px #0009,0 0 0 7px #111;transition:all .25s ease;pointer-events:none}
@@ -684,6 +684,10 @@ body.bglive #home{background:#10201f}
 .hall .hn{flex:1;min-width:0}.hall .hn b{display:block;font:400 1.05rem var(--cm);letter-spacing:.4px}.hall .hn small{font:600 .72rem system-ui,sans-serif;color:#555}
 .hall .hs{font:400 1.5rem var(--cm);color:#c4262e}
 #home .hfoot button+button{margin-left:6px}
+ /* 0.9.0 Železný král */
+.diff.iron{display:block;width:100%;margin-top:8px}
+.diff.iron.on{background:var(--halft),#ffe14d}
+#ng-warn{color:#a3261e!important;font-weight:700}
 </style>
 </head>
 <body>
@@ -691,7 +695,7 @@ body.bglive #home{background:#10201f}
 
 <header>
  <div class="top">
-  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.8.0</small></div>
+  <div class="title"><svg class="crown" viewBox="0 0 120 100" aria-hidden="true"><path d="M10 88L4 26L34 52L60 8L86 52L116 26L110 88Z" fill="#ffe14d" stroke="#111" stroke-width="6" stroke-linejoin="round"/><path d="M14 72H106" stroke="#111" stroke-width="5"/><circle cx="60" cy="56" r="8" fill="#ff3d7f" stroke="#111" stroke-width="4"/><circle cx="32" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="88" cy="64" r="5" fill="#1fc7b6" stroke="#111" stroke-width="3"/><circle cx="4" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="60" cy="8" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/><circle cx="116" cy="24" r="6" fill="#ffe14d" stroke="#111" stroke-width="4"/></svg><span class="tt"><b>ZNOVUZROZENÍ</b><span>KRÁLOVSTVÍ</span></span><small>v0.9.0</small></div>
   <div class="tctl">
    <div class="badge">Kolo <span id="h-round">1</span> · 🂠 <span id="h-deck">0</span></div>
    <button class="ib" id="b-sound" title="Zvuky" aria-label="Zvuky">🔊</button>
@@ -748,7 +752,7 @@ body.bglive #home{background:#10201f}
  <div class="updbar" id="home-upd" hidden></div>
  <div id="home-main"></div>
  <div class="tiles" id="home-tiles"></div>
- <div class="hfoot"><button data-open="news">⬇️ Verze 0.8.0 · novinky</button> <button data-open="hall">🏛️ Síň slávy</button><br>Hra se ukládá automaticky po každé akci.</div>
+ <div class="hfoot"><button data-open="news">⬇️ Verze 0.9.0 · novinky</button> <button data-open="hall">🏛️ Síň slávy</button><br>Hra se ukládá automaticky po každé akci.</div>
 </div></div>
 <div id="toast"></div>
 <div id="quit" role="dialog" aria-modal="true" aria-label="Hra vypnuta"><div class="mc">
@@ -766,6 +770,7 @@ body.bglive #home{background:#10201f}
  <h2>🆕 Nová kampaň</h2>
  <p>Vyber obtížnost. Ovlivňuje, kolik slávy ti berou nepřátelé a jak často útočí Automa.</p>
  <div class="diffs" id="diffs"></div>
+ <button class="diff iron" id="ng-iron" aria-pressed="false">👑 Železný král<small>Bez tlačítka Zpět, jediné uložení, Automa útočí častěji. V Síni slávy korunka a body ×1,2.</small></button>
  <p id="ng-warn" style="margin-top:10px;color:#f3b9a0"></p>
  <button class="wide-btn" id="b-start">⚔️ Začít kampaň</button>
 </div></div>
@@ -885,7 +890,7 @@ body.bglive #home{background:#10201f}
 <div class="modal" id="m-hall" role="dialog" aria-modal="true" aria-label="Síň slávy"><div class="mc endm">
  <button class="x" data-close aria-label="Zavřít">✕</button>
  <h2>🏛️ Síň slávy</h2>
- <p>Nejlepší dohrané kampaně v tomto zařízení. Body odkazu = sláva + očista + nepřátelé ×2 + budovy na max. ×3 + kapitoly ×5 + úspěchy ×2 + trvalé karty ×4, krát obtížnost (lehká ×0,8, těžká ×1,3).</p>
+ <p>Nejlepší dohrané kampaně v tomto zařízení. Body slávy dynastie = sláva + oběť koruny + nepřátelé ×2 + budovy na max. ×3 + kapitoly ×5 + úspěchy ×2 + trvalé karty ×4, krát obtížnost (lehká ×0,8, těžká ×1,3) a ×1,2 za Železného krále.</p>
  <div id="hall-body"></div>
  <button class="wide-btn" data-close>Zavřít</button>
 </div></div>
@@ -900,108 +905,38 @@ body.bglive #home{background:#10201f}
 <script>
 'use strict';
 /* =========================================================
-   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.8.0 (dříve Králův odkaz)
+   ZNOVUZROZENÍ KRÁLOVSTVÍ v0.9.0
    Jeden stav (state), jedno vykreslení (render), akce bez obalování.
    ========================================================= */
-const VERSION='0.8.0';
-const SAVE_KEY='kraluvOdkazSaveV2';        // stejný klíč jako edice 8 → stará kampaň se načte
-const SLOT_PREFIX='kraluvOdkazSlot4_';
-const SOUND_KEY='kraluvOdkazSound';
+/* převzetí uložených dat ze starších verzí (staré klíče se poznají podle otisku předpony,
+   takže se nesahá na data jiných her na stejné adrese) */
+(function migrateKeys(){try{
+ const hash=t=>[...t].reduce((a,c)=>(a*31+c.charCodeAt(0))%4294967296,7);
+ const map={SaveV2:'zk_save',Sound:'zk_sound',Vib:'zk_vib',SkipVersion:'zk_skipVersion',Audio:'zk_audio',Sbirka:'zk_collection',Pruvodce:'zk_tutorial',SinSlavy:'zk_hall'};
+ const keys=[];for(let i=0;i<localStorage.length;i++)keys.push(localStorage.key(i));
+ keys.forEach(k=>{const m=k.match(/^([a-z]+[A-Z][a-z]+)(SaveV2|Sound|Vib|SkipVersion|Audio|Sbirka|Pruvodce|SinSlavy|Slot4_(\d+))$/);
+  if(!m||hash(m[1])!==909171541)return;const nk=m[3]?'zk_slot_'+m[3]:map[m[2]];
+  if(localStorage.getItem(nk)==null)localStorage.setItem(nk,localStorage.getItem(k));localStorage.removeItem(k);});
+}catch(e){}})();
+const VERSION='0.9.0';
+const SAVE_KEY='zk_save';
+const SLOT_PREFIX='zk_slot_';
+const SOUND_KEY='zk_sound';
 const CHANGELOG=[
- ['0.8.0',[
-  '🧭 Průvodce prvním kolem: při první nové kampani hra krok za krokem ukáže suroviny, karty, Aktivovat vše, zakázky, cíl kapitoly, Objevit, Další kolo a Menu. Kdykoli ho spustíš znovu v Pravidlech.',
-  '🔥 Očista (podle pravidel Králova odkazu): na konci kampaně můžeš obětovat až 3 přátelské karty. Zmizí, ale jejich sláva se zapíše do tvého odkazu – čím vylepšenější karta, tím víc.',
-  '🏛️ Síň slávy: každá dohraná kampaň dostane body odkazu (sláva, očista, poražení nepřátelé, budovy na max. úrovni, kapitoly, úspěchy a trvalé karty, krát obtížnost) a titul. Nejlepší výsledky se drží v žebříčku – otevřeš ho v hlavním menu nebo v okně Kampaň.',
-  '🎬 Živé pozadí menu (plátno z 0.7.8) je teď výchozí. Úklid: odstraněno staré pozadí, které blikalo, soubor je menší.']],
- ['0.7.8',[
-  'Pokus: nové živé pozadí menu. Mraky, ptáci, mlýn, kouř a praporky se kreslí do jednoho plátna přímo v menu (ne jako vrstva pod ním). Zapneš ho v panelu 🔊 → Pozadí menu: 🎬 živé (pokus). Když bude dál blikat, v další verzi zůstane jen obrázek.',
-  'Výchozí zůstává 🖼️ obrázek. Živé pozadí se zastaví, když je otevřené okno nebo hra, a kreslí se nejvýš 30× za sekundu.']],
- ['0.7.7',[
-  'Blikání potvrzeno a vyřešeno: dělala ho pohyblivá krajina v hlavním menu. Nově je krajina s hradem v menu jako pevný obrázek přímo v pozadí menu – vypadá stejně (hrad, mlýn, mraky, praporky), jen se nehýbe, a nic nebliká.',
-  'Pohyblivou krajinu si můžeš dál zapnout v panelu 🔊 (Pozadí menu: 🖼️ obrázek / 🎬 živé / 🚫 vypnuté), na některých telefonech ale může blikat.']],
- ['0.7.6',[
-  'Blikání se objevilo s verzí 0.4.0 – tehdy přibylo živé pozadí, které leželo pod celou hrou a vše nad ním bylo průhledné. Hra je teď zase postavená jako ve 0.3.0 (bez blikání): stůl má vlastní pevné pozadí a živá krajina s hradem je jen v hlavním menu.',
-  'Zrušeny pokusy z verzí 0.7.3 a 0.7.4 (vynucené vrstvy, schovávání stolu pod okny) – okna se chovají stejně jako ve 0.3.0.',
-  'V panelu 🔊 přepínač Pozadí menu: 🎬 živé / ⏸️ stojí / 🚫 vypnuté. Vypnuté znamená úplně stejné menu jako ve 0.3.0.']],
- ['0.7.5',[
-  'Probliknutí vyřešeno u kořene: telefon nestíhal kreslit. Měření ukázalo dva žrouty výkonu – živé pozadí se překreslovalo celé při každém snímku a let karty do detailu nutil telefon kreslit kartu pořád znovu. Když to telefon nestihne, na snímek ukáže nedokreslené okno a prosvitne to, co je pod ním.',
-  'Pozadí je teď jeden hotový obrázek a pohybují se jen malé samostatné kousky (mraky, ptáci, mlýn, kouř, praporky) – telefon je jen posouvá, nic nepřekresluje. Kreslení na úvodní obrazovce kleslo asi na čtvrtinu.',
-  'Let karty do detailu je jednodušší (posun a zvětšení bez otáčení) a kreslí se asi šestkrát méně. Kdo chce úplný klid, v panelu 🔊 vypne 🎬 Animace karet.']],
- ['0.7.4',[
-  'Probliknutí oken vyřešeno jinak: když je otevřené okno (detail karty, menu, novinky, sbírka, zvuk, dialog), stůl i hlavní menu pod ním se schovají. Telefon tak nemá co vykreslit přes okno, za oknem je jen ztlumené pozadí s hradem.',
-  'Čitelné oznámení o nové verzi: tmavý text na žlutém pruhu a světlá tlačítka Teď ne / Přeskočit.',
-  'Ikona Vypnout se zobrazuje na všech telefonech (dřív byl místo ní na Androidu prázdný čtvereček).']],
- ['0.7.3',[
-  'Oprava probliknutí oken na Androidu (Chrome i Firefox): z videa bylo vidět, že se na jeden snímek vykreslil obsah pod oknem (stůl nebo hlavní menu) přes otevřené okno. Okna, horní lišta, spodní tlačítka, menu i oznámení mají teď pevné pořadí vrstev, takže je telefon už nemůže na okamžik prohodit.',
-  'Pod otevřeným oknem se stránka neposouvá a posouvání v okně se nepřenáší na hru za ním.']],
- ['0.7.2',[
-  'Další oprava problikávání podle videa: při otevření a zavření detailu karty telefon na jeden snímek nestihl překreslit obrazovku. Příčinou bylo hlavně živé pozadí – při každém okně se zastavovalo a znovu rozjíždělo a ve hře se tmavilo náročným filtrem.',
-  'Ve hře je teď pozadí ztlumené jednoduchou vrstvou a stojí (živé je jen v hlavním menu). Karty už nedrží zbytečné grafické vrstvy, které na mobilu zabíraly paměť.',
-  'Nový vypínač 🎬 Animace karet v panelu 🔊 – kdyby to na některém telefonu dál blikalo, jde vypnout let karet do detailu i komiksové efekty.']],
- ['0.7.1',[
-  'Oprava problikávání karet na mobilu: karta se při stisknutí už neposouvá (posun nutil telefon obrázek znovu vykreslit), obrázky karet se drží v paměti grafiky a po akci se nenačítají znovu.',
-  'Detail karty se ukáže až s hotovým obrázkem a karta na stole se při otevření detailu jen jemně ztlumí, místo aby zmizela.']],
- ['0.7.0',[
-  '📚 Sbírka karet: všechny karty ze všech balíčků na jednom místě. Objevené karty i jejich vylepšené strany se ukládají napříč kampaněmi, neobjevené jsou schované za otazníkem. U každé karty vidíš všechny strany a kolikrát jsi ji porazil nebo roztrhal. Otevřeš ji v hlavním menu nebo v Menu.',
-  '🎬 Animace karet: objevená karta přiletí z tlačítka Objevit, vylepšená se otočí na druhou stranu, použitá poskočí, zasažený nepřítel se zatřese (ŠVIH!), poražený vybuchne (BUM!), roztrhaná karta se rozpůlí a splněná událost se rozzáří (HOTOVO!).',
-  'Nový úspěch Sběratel (50 karet ve sbírce). Animace se vypnou, když má telefon zapnuté omezení pohybu.']],
- ['0.6.0',[
-  '🔒 Obsazení: někteří nepřátelé (bandité, skřeti, piráti, baron, obléhací armáda, čarodějnice, nemrtví, Pradávný drak) si sednou na tvou budovu. Ta nic nevyrábí a nejde vylepšit, dokud nepřítele neporazíš.',
-  '☑️ Zaškrtávací políčka: některé karty mají políčka, která se plní používáním. Kaple předků po 3 použitích dá pečeť, Věž mága kouzlí, Krystalový důl se po 4 použitích vyčerpá a Kouzelná studna splní přání.',
-  '🔀 Volba produkce: Alchymista a Druidský háj nabízejí víc možností (např. 2🪙 / 2🪨 / 2⚔️) a v detailu karty si vybereš. Aktivovat vše zvolí surovinu, které máš nejméně.',
-  '🃏 Volba strany: když objevíš Mýtinu, vybereš, jestli z ní bude Pole, nebo Pastvina. Kámen záhad se promění ve Věž mága, nebo v Druidský háj.',
-  '🏛️ Trvalé karty nad stolem: přehled bonusů z kapitol a stezek a nové trvalé karty, které dávají suroviny každé kolo (Duch hvozdu, Dračí poklad, Požehnání studny, Arcimágova přízeň, Spojenectví s vévodou).',
-  'Nový balíček 🔮 Magie a záhady (12 karet): Kámen záhad, Alchymista, Kouzelná studna, Krystalový důl, Čarodějnice, Nemrtví, Bludičky, Začarovaný les, Kniha kouzel a boss Pradávný drak. Nová budova Pastvina. Všechno s vlastními kresbami.',
-  'Nový úspěch Strážce odkazu (3 vlastní trvalé karty).']],
- ['0.5.1',[
-  'Detail karty už nebliká: karta se při klepnutí zvedne ze stolu, otočí se a přiletí do detailu. Při zavření se vrátí zpátky na své místo.',
-  'Obrázek karty v detailu se po každé akci (aktivace, vylepšení, boj) už znovu nenačítá, takže neprobliká.',
-  'Plynulejší okna na mobilu: pozadí za otevřeným oknem se zastaví a odpadlo náročné rozmazání.']],
- ['0.5.0',[
-  'Zakázky dvora: každé kolo ti 1–2 postavy z dvora (Kovář Ota, Kupec Šimon, Biskup, Královský lovčí…) zadají úkol. Splň ho do konce kola a dostaneš zlato, slávu nebo pečeť. 20 různých zakázek, od kapitoly III dvě najednou.',
-  'Události říše: od 3. kola se mezi koly občas stane něco nečekaného – kejklíři, mor, svatba princezny, kometa, krupobití, chycený špeh, výzva k souboji… Vybíráš ze dvou možností a každá má své následky. 26 událostí.',
-  'Příběhové řetězce: když nakrmíš zbloudilé dráče, za dvě kola se vrátí jeho matka s darem. Když ho vyženeš… uvidíš. Některé volby dávají bonus na několik kol nebo přidají kartu na stůl či navrch balíčku.',
-  'Nový balíček 🌊 Přístav a moře (12 karet): Rybářské molo → Přístav → Královský přístav, Rybáři, Loděnice, Maják, Zámořské koření, Pašeráci, Obchodní flotila, Ztroskotaná loď, Mořská bouře, Piráti, Mořský had a boss Kraken. Všechny s vlastními kresbami.',
-  'Nové úspěchy: Dvorní oblíbenec (10 zakázek), Kronikář říše (10 událostí) a Pán moří (poraz Krakena).']],
- ['0.4.0',[
-  'Zvuk a hudba jako ve Střelených kachnách: nový panel 🔊 s kanály Všechny zvuky, Herní efekty, Hudba a Zvuky okolí (vítr, ptáci, kovárna se zvonem, praskání ohně). Každý kanál má vlastní vypínač a hlasitost a nastavení se pamatuje.',
-  'Čtyři středověké skladby generované přímo ve hře: 🏰 Hrad v menu, 🍺 Hostina a 🥁 Pochod při hře, ⚔️ Napětí, když jsou na stole nepřátelé. Automaticky se střídají podle situace, nebo si vybereš jednu.',
-  'Nové a bohatší zvuky: úder meče, poražený nepřítel, útok Automy, nové kolo, listování pravidly. Hudba se při fanfárách a soubojích na chvíli ztiší.',
-  'Živé komiksové pozadí: hrad na kopci s vlajícími prapory, pomalu plující mraky, ptáci, větrný mlýn, kouř z komínů a otáčející se paprsky. Při hře je ztlumené a při útoku nepřátel zčervená.',
-  'Animaci pozadí lze vypnout v panelu zvuku. Respektuje i systémové omezení pohybu.']],
- ['0.3.0',[
-  'Nový název: Znovuzrození království (dříve Králův odkaz). Uložené kampaně, pozice i exporty se načtou.',
-  'Nové karty ve stylu Zlatý rukopis · komiks: stuha se jménem, klenuté okno, kosočtverce úrovně, vosková pečeť a velký řádek produkce.',
-  'Kreslené ilustrace místo emoji: každá karta základní hry má vlastní obrázek a mění se i s vylepšením (pole → statek → sýpky). Válka o korunu a relikvie mají 52 vlastních motivů.',
-  'Komiksová citoslovce u nepřátel a událostí (ROAR!, PSST!, BUM!, CINK!…), životy nepřátel jako políčka, razítko ✓ POUŽITO.',
-  'Celá hra v komiksovém stylu jako Radlands a Střelené kachny: písmo Bangers, tlusté obrysy, rastr a tvrdé stíny.',
-  'Tlačítko ⏻ Vypnout hru v hlavním menu i v herním Menu: uloží kampaň, opustí celou obrazovku a zavře hru.']],
- ['0.2.0',[
-  'Úvodní animace se zlatou korunou – klepnutím vstoupíš do hry a zapneš zvuk.',
-  'Hlavní menu: Pokračovat v kampani (s přehledem kola, kapitoly a slávy), Nová kampaň s volbou obtížnosti a dlaždice Pravidla, Kampaň, Zvuk, Vibrace, Celá obrazovka a Novinky.',
-  'Pravidla po stránkách (8 stran) – listuj šipkami, tečkami nebo přejetím prstem.',
-  'Vibrace telefonu při zásahu, porážce nepřítele, útoku Automy, úspěchu a dokončené kapitole. Vypnout jdou v hlavním menu.',
-  'Úspěchy a dokončené kapitoly se ohlásí výrazným zlatým proužkem s fanfárou.',
-  'Do hlavního menu se vrátíš přes 📜 Menu → 🏠 Hlavní menu.']],
- ['0.1.1',[
-  'Nové tlačítko ⚡ Aktivovat vše: jedním klepnutím spustí produkci všech nepoužitých budov.',
-  'Značky na kartách: ⬆ = budovu jde hned vylepšit, 💥 = na nepřítele máš dost síly, ✓ = obchod nebo událost si můžeš dovolit.',
-  'Tlačítko Kampaň pulzuje, když je kapitola splněná a čeká na odměnu.',
-  'Férovější ↶ Zpět: objevenou kartu už vrátit nejde, takže nejde nahlížet do balíčku.',
-  'Výpravy a útok Automy mají v každém kole pevně daný výsledek – vrácením a opakováním se nedají přelosovat.',
-  'Hra jde nainstalovat jako aplikace z GitHub Pages, funguje offline a novou verzi nabídne jen po potvrzení (Aktualizovat / Teď ne / Přeskočit).']],
- ['0.1.0',[
-  'Nové číslování verzí: edice 8.13 → v0.1.0. Uložená kampaň z edice 8 se načte.',
-  'Celý kód přepsaný do jednoho celku – žádné vrstvení edic, jeden styl, jedno vykreslení.',
-  'Klepnutí na kartu otevře detail se všemi akcemi a cenami. Místo přepínání a dvojklepnutí.',
-  'Opraveno: jedno klepnutí mohlo spustit akci dvakrát (hromadily se posluchače).',
-  'Opraveno: diplomacie šla opakovat bez omezení – nyní jednou za kolo, v okně Oblasti.',
-  'Opraveno: výpravy počítaly jen Kasárna – nově každou budovu, která produkuje sílu.',
-  'Opraveno: panely Války o korunu a relikvií visely volně pod hrou – jsou v Menu.',
-  'Opraveno: popisy odměn kapitol 5–8 teď odpovídají tomu, co hra opravdu přidá.',
-  'Opraveno: hláška u pečeti, titulek verze, vlastní potvrzovací okna místo systémových.',
-  'Na šířku se karty posouvají přirozeně prstem, bez zvláštního tažení.']],
- ['Edice 1–8.13',['Původní vývoj: základní hra, 3 rozšíření, kampaň, mapa, oblasti, Válka o korunu, taktické střety a relikvie.']]
+ ['0.9.0',[
+  '👑 Železný král: nový způsob hraní kampaně bez tlačítka Zpět, s jediným uložením a častějšími útoky Automy. V Síni slávy dostane korunku a body ×1,2. Zapneš ho při zakládání nové kampaně.',
+  '👑 Oběť koruny: na konci kampaně obětuješ až 3 přátelské karty a jejich sláva se připíše ke slávě dynastie. Výsledek se počítá v bodech slávy dynastie.',
+  'Nové názvy: úspěch Strážce trůnu, kapitola Věčná sláva.',
+  'Úklid před vydáním: nová historie verzí, přejmenovaná místa pro ukládání. Rozehraná kampaň, uložené pozice, sbírka karet, Síň slávy i nastavení zvuku se převezmou samy.']],
+ ['0.1–0.8',[
+  'Komiksový vzhled, kreslené karty a živé pozadí hlavního menu.',
+  'Zvuk, generovaná hudba a zvuky okolí s vlastními kanály.',
+  'Kampaň o deseti kapitolách, Válka o korunu, oblasti, výpravy a diplomacie.',
+  'Zakázky dvora, události říše s volbami a příběhovými řetězci.',
+  'Balíčky Cech obchodníků, Královské události, Temné hvozdy, Přístav a moře, Magie a záhady.',
+  'Obsazení budov, zaškrtávací políčka, volba produkce, volba strany a trvalé karty.',
+  'Sbírka karet, animace karet, průvodce prvním kolem a Síň slávy.',
+  'Instalace jako aplikace, hra bez internetu a aktualizace jen po potvrzení.']]
 ];
 
 const $=id=>document.getElementById(id);
@@ -1165,7 +1100,7 @@ function warEvent(key,name,art,cost,reward,pack){CARDS[key]={type:'event',name,a
  ['treaty','Obchodní dohoda','📜',{gold:3,wood:2},{gold:7,fame:4}],
  ['mobilization','Mobilizace','📯',{gold:3,stone:2},{sword:6,fame:3}]
 ].forEach(([k,n,a,c,r])=>warEvent('e7_'+k,n,a,c,r,'events'));
-// Relikvie (dříve edice 8)
+// Relikvie
 [['sunforge','Sluneční kovárna','☀️',{stone:2,sword:2},{gold:5,stone:3},{stone:3,sword:3},{gold:5}],
  ['observatory','Hvězdná observatoř','🔭',{fame:3},{stone:4,wood:3},{fame:5},{gold:6}],
  ['sanctuary','Svatyně prastarých','🕯️',{fame:2,wood:2},{stone:3,gold:4},{fame:4,wood:2},{stone:4}],
@@ -1186,7 +1121,7 @@ const CHAPTERS=[
  {name:'Cesty a trhy',story:'Obchodní stezky přivedou do země nové spojence.',goal:'Získej 18 slávy a vylepši alespoň 2 budovy.',fame:18,upgraded:2,reward:'Mistrovští řemeslníci: první vylepšení v kole stojí o 1 surovinu méně.'},
  {name:'Stíny na hranici',story:'Za hranicemi se shromažďují nepřátelé.',goal:'Získej 28 slávy a poraz alespoň 2 nepřátele.',fame:28,kills:2,reward:'Veteráni: +1⚔️ na začátku každého kola.'},
  {name:'Královská rada',story:'Staré rody uznávají tvé právo vládnout.',goal:'Získej 40 slávy a použij alespoň 2 pečetě.',fame:40,seals:2,reward:'Královská rada: +1🏆 na začátku každého kola.'},
- {name:'Věčný odkaz',story:'Nadešel čas vytesat své jméno do dějin.',goal:'Získej 55 slávy a poraz alespoň 3 nepřátele.',fame:55,kills:3,reward:'Začíná Válka o korunu: do balíčku přijde 12 karet vojska a od teď útočí Automa.'},
+ {name:'Věčná sláva',story:'Nadešel čas vytesat své jméno do dějin.',goal:'Získej 55 slávy a poraz alespoň 3 nepřátele.',fame:55,kills:3,reward:'Začíná Válka o korunu: do balíčku přijde 12 karet vojska a od teď útočí Automa.'},
  {name:'Hranice v plamenech',story:'Zbroj říši a odraz první nájezdy.',goal:'Získej 65 slávy a poraz 4 nepřátele.',fame:65,kills:4,reward:'Do balíčku přijde 6 hrdinů.'},
  {name:'Prapory spojenců',story:'Upevni ekonomiku a spojence.',goal:'Získej 80 slávy a měj 5 vylepšených budov.',fame:80,upgraded:5,reward:'Do balíčku přijde 6 královských událostí.'},
  {name:'Obléhání citadely',story:'Připrav vojsko k obléhání.',goal:'Získej 100 slávy a poraz 6 nepřátel.',fame:100,kills:6,reward:'Uznání šlechty – další krok k trůnu.'},
@@ -1223,7 +1158,7 @@ const ACHIEVEMENTS=[
  ['courtier','Dvorní oblíbenec','Splň 10 zakázek dvora.',s=>s.legacy.questsDone>=10],
  ['chronicler','Kronikář říše','Rozhodni 10 událostí.',s=>s.legacy.ev.done>=10],
  ['seaking','Pán moří','Poraz Krakena.',s=>s.legacy.krakenDown],
- ['keeper','Strážce odkazu','Získej 3 vlastní trvalé karty.',s=>s.legacy.perms.length>=3],
+ ['keeper','Strážce trůnu','Získej 3 vlastní trvalé karty.',s=>s.legacy.perms.length>=3],
  ['collector','Sběratel','Měj ve sbírce 50 karet.',s=>colCount()>=50]
 ];
 
@@ -1515,7 +1450,7 @@ function poofFx(g){if(!g)return;document.body.appendChild(g.cl);const [x,y]=mid(
 /* =========================================================
    SBÍRKA KARET (napříč všemi kampaněmi)
    ========================================================= */
-const COL_KEY='kraluvOdkazSbirka';
+const COL_KEY='zk_collection';
 let COL={seen:{},torn:{},kills:{},fresh:[]};
 try{const o=JSON.parse(localStorage.getItem(COL_KEY)||'null');if(o&&o.seen)COL={seen:o.seen||{},torn:o.torn||{},kills:o.kills||{},fresh:Array.isArray(o.fresh)?o.fresh:[]};}catch(e){}
 const saveCol=()=>{try{localStorage.setItem(COL_KEY,JSON.stringify(COL));}catch(e){}};
@@ -1568,7 +1503,7 @@ function freshState(difficulty='normal'){
 const newSeed=()=>Math.floor(Math.random()*2147483647);
 const int=(v,d=0,min=0)=>Number.isFinite(v)?Math.max(min,Math.floor(v)):d;
 function looksLikeState(s){return !!(s&&typeof s==='object'&&Array.isArray(s.board)&&Array.isArray(s.deck)&&s.res&&typeof s.res==='object');}
-/* převezme uložený stav (i z edic 4–8.13) a doplní/opraví vše, co chybí */
+/* převezme uložený stav (i ze starších verzí) a doplní/opraví vše, co chybí */
 function normalize(s){
  const n=freshState(),L=s.legacy&&typeof s.legacy==='object'?s.legacy:{},l=n.legacy;
  n.round=int(s.round,1,1);
@@ -1613,6 +1548,7 @@ function normalize(s){
   buffs:Array.isArray(EV.buffs)?EV.buffs.filter(b=>b&&b.gain&&b.n>0).map(b=>({n:int(b.n,1,1),gain:b.gain,t:String(b.t||'Událost')})):[],
   seen:Array.isArray(EV.seen)?EV.seen.filter(k=>EVENTS[k]):[],done:int(EV.done)};
  l.krakenDown=!!L.krakenDown;
+ l.iron=!!L.iron;
  l.hall=L.hall&&typeof L.hall==='object'&&L.hall.score?L.hall:null;
  l.perms=Array.isArray(L.perms)?[...new Set(L.perms.filter(p=>PERMS[p]))]:[];
  return n;
@@ -1676,7 +1612,7 @@ const militaryBuildings=()=>state.board.filter(c=>{const I=info(c);return I.type
    ZVUK A HUDBA (vše generované ve hře přes Web Audio, žádné soubory)
    kanály: vše → efekty · hudba · okolí → vítr, ptáci, městečko, oheň
    ========================================================= */
-const AUDIO_KEY='kraluvOdkazAudio';
+const AUDIO_KEY='zk_audio';
 const CH=[
  {k:'master',n:'Všechny zvuky',ic:'🔊',v:85},
  {k:'sfx',n:'Herní efekty',ic:'💥',v:75,p:'master'},
@@ -1837,7 +1773,7 @@ function audioUpdate(){
 document.addEventListener('visibilitychange',()=>audioUpdate());
 document.addEventListener('pointerdown',function first(){document.removeEventListener('pointerdown',first,true);setTimeout(()=>{if(chOn('master')&&ac())audioUpdate();},30);},true);
 
-const VIB_KEY='kraluvOdkazVib';
+const VIB_KEY='zk_vib';
 let vibOn=localStorage.getItem(VIB_KEY)!=='0';
 const canVibrate=typeof navigator!=='undefined'&&typeof navigator.vibrate==='function';
 const VIB={hit:35,kill:[60,40,140],automa:[220,80,120],ach:[50,40,50,40,90],chapter:[70,50,70,50,240]};
@@ -1864,7 +1800,7 @@ function floatText(text,ev){
 function shakeCard(id){const el=document.querySelector(`#board .card[data-id="${id}"]`);if(!el)return;el.classList.remove('shake');void el.offsetWidth;el.classList.add('shake');}
 function fail(msg,id){sound('error');toast(msg);if(id!=null)shakeCard(id);return false;}
 function logAction(msg){state.legacy.log.unshift(`Kolo ${state.round}: ${msg}`);state.legacy.log=state.legacy.log.slice(0,40);}
-function snapshot(){undoStack.push(JSON.stringify(state));if(undoStack.length>12)undoStack.shift();}
+function snapshot(){if(state.legacy.iron)return;undoStack.push(JSON.stringify(state));if(undoStack.length>12)undoStack.shift();}
 function commit(){checkQuests();checkAchievements();persist();render();}
 
 /* --- vlastní dialog místo confirm()/prompt() --- */
@@ -1992,7 +1928,7 @@ async function nextRound(){
  // obchodní stezky
  const w=l.world;if(w.routes.length){const g={};w.routes.forEach(id=>{const r=REGIONS.find(x=>x.id===id);if(r)for(const[k,v]of Object.entries(r.routeBonus))g[k]=(g[k]||0)+v;});gain(g);worldMessage('Obchodní stezky dodaly: '+costText(g)+'.',false);}
  // Automa od 6. kapitoly
- const interval={hard:2,easy:4,normal:3}[l.difficulty];
+ const interval=Math.max(2,{hard:2,easy:4,normal:3}[l.difficulty]-(l.iron?1:0));
  let automa=null;
  if(l.chapter>=5&&state.round%interval===0){const foes=WAR_PACKS.foes.cards,key=foes[Math.floor(roll('automa')*foes.length)];
   spawnCard(key);
@@ -2053,6 +1989,7 @@ function diplomacy(kind){
  sound('coin');worldMessage(`Diplomacie – ${D.name}: ${costText(D.reward)}.`);commit();renderWorld();
 }
 function undo(){
+ if(state.legacy.iron){toast('👑 Železný král nezná cestu zpět.');return;}
  if(!undoStack.length){toast(ui.undoBlocked?'Objevenou kartu už vrátit nejde.':'Není žádná akce k vrácení.');return;}
  state=normalize(JSON.parse(undoStack.pop()));ui.lastSpawn=null;closeSheet();
  logAction('Vrácena poslední akce.');persist();render();refreshOpenModals();toast('↶ Akce vrácena.');
@@ -2085,23 +2022,24 @@ async function deleteSlot(n){
  localStorage.removeItem(SLOT_PREFIX+n);renderCampaign();
 }
 function exportSave(){
- const blob=new Blob([JSON.stringify({game:'kraluv-odkaz',version:VERSION,state},null,2)],{type:'application/json'});
+ const blob=new Blob([JSON.stringify({game:'znovuzrozeni-kralovstvi',version:VERSION,state},null,2)],{type:'application/json'});
  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`znovuzrozeni-kralovstvi-kampan-kolo${state.round}.json`;document.body.appendChild(a);a.click();
  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},1000);toast('Kampaň exportována.');
 }
 async function importSave(e){
+ if(state.legacy.iron&&hasSave()){toast('👑 Železný král: import je vypnutý. Začni novou kampaň.');e.target.value='';return;}
  const file=e.target.files?.[0];e.target.value='';if(!file)return;
  try{
   if(file.size>1000000)throw Error('soubor je příliš velký');
-  const data=JSON.parse(await file.text()),cand=data&&(data.game==='kraluv-odkaz'||data.game==='znovuzrozeni-kralovstvi')?data.state:data;
+  const data=JSON.parse(await file.text()),cand=data&&data.state&&looksLikeState(data.state)?data.state:data;
   if(!looksLikeState(cand))throw Error('není to uložená kampaň Znovuzrození království');
   if(!await ask({title:'📂 Importovat kampaň?',text:'Současná kampaň bude nahrazena.',ok:'Importovat'}))return;
   state=normalize(cand);undoStack=[];ui.undoBlocked=false;persist();render();renderCampaign();toast('Kampaň obnovena.');
  }catch(err){toast('Import selhal: '+err.message);}
 }
-async function newCampaign(difficulty,confirmed){
+async function newCampaign(difficulty,confirmed,iron=false){
  if(!confirmed&&!await ask({title:'🔄 Nová kampaň?',text:'Současný postup bude přepsán a roztrhané karty se vrátí. Doporučujeme nejdřív export.',ok:'Začít znovu',danger:true}))return false;
- state=freshState(difficulty);undoStack=[];ui.undoBlocked=false;logAction('Začala nová kampaň.');persist();closeAllModals();hideHome();render();toast('Nová kampaň připravena.');if(!tutDone())setTimeout(tutStart,900);return true;
+ state=freshState(difficulty);state.legacy.iron=!!iron;undoStack=[];ui.undoBlocked=false;logAction(iron?'Začala nová kampaň – 👑 Železný král.':'Začala nová kampaň.');persist();closeAllModals();hideHome();render();toast('Nová kampaň připravena.');if(!tutDone())setTimeout(tutStart,900);return true;
 }
 
 /* =========================================================
@@ -2488,13 +2426,13 @@ function render(){
  RES.forEach(k=>{const el=$('r-'+k);if(ui.prevRes&&ui.prevRes[k]!==state.res[k]){el.classList.add('pop');setTimeout(()=>el.classList.remove('pop'),260);}el.textContent=state.res[k];});
  ui.prevRes={...state.res};
  const ch=CHAPTERS[l.chapter],g=ch?goalStatus(ch):null;
- $('c-title').textContent=l.completed?'👑 Kampaň dokončena':`📜 Kapitola ${ROMAN[l.chapter]} — ${ch.name}`;
- $('c-goal').textContent=l.completed?'Tvůj odkaz bude žít navěky.':ch.goal;
+ $('c-title').textContent=(l.iron?'👑 ':'')+(l.completed?'👑 Kampaň dokončena':`📜 Kapitola ${ROMAN[l.chapter]} — ${ch.name}`);
+ $('c-goal').textContent=l.completed?'Tvá sláva bude žít navěky.':ch.goal;
  $('c-track').textContent=l.completed?'Všech 10 kapitol dokončeno':`Postup ${g.pct} % · ${g.details}${g.ready?' · ✨ Odměna připravena v Kampani!':''}`;
  $('c-bar').style.width=(l.completed?100:g.pct)+'%';
  const pen=roundPenalty(),w=l.world,routeGold=w.routes.reduce((n,id)=>n+(REGIONS.find(r=>r.id===id)?.routeBonus.gold||0),0),startGold=(l.chapter>=1?3:0)+routeGold;
  $('c-preview').textContent=`Další kolo: ${pen?'−'+pen+' 🏆':'bez ztráty slávy'} · zdroje se vynulují · začneš s ${startGold} 🪙${l.chapter>=3?' a 1 ⚔️':''}`;
- $('b-undo').disabled=!undoStack.length;$('b-undo').title=!undoStack.length&&ui.undoBlocked?'Objevenou kartu vrátit nejde':'Vrátit poslední akci';
+ $('b-undo').disabled=!undoStack.length;$('b-undo').hidden=!!l.iron;$('b-undo').title=!undoStack.length&&ui.undoBlocked?'Objevenou kartu vrátit nejde':'Vrátit poslední akci';
  $('b-campaign').classList.toggle('ready',!!(g&&g.ready));
  const idle=idleBuildings().length,ball=$('b-all');ball.disabled=!idle;ball.textContent=idle?`⚡ Aktivovat vše (${idle})`:'⚡ Vše aktivováno';
  const ex=$('b-explore');
@@ -2612,7 +2550,7 @@ const DIFF_INFO={
  easy:{n:'🌿 Lehká',d:'Nepřátelé a krize berou polovinu slávy. Automa útočí každé 4. kolo.'},
  normal:{n:'⚖️ Normální',d:'Vyvážená hra. Automa útočí každé 3. kolo.'},
  hard:{n:'🔥 Těžká',d:'Nepřátelé berou 1,5× slávy. Automa útočí každé 2. kolo.'}};
-let ngDiff='normal';
+let ngDiff='normal',ngIron=false;
 function showHome(){closeSheet();renderHome();$('home').classList.add('open');document.body.style.overflow='hidden';sceneUpdate();}
 function hideHome(){$('home').classList.remove('open');document.body.style.overflow='';sceneUpdate();}
 const isHome=()=>$('home').classList.contains('open');
@@ -2632,11 +2570,12 @@ function openNewGame(){
 }
 function renderNewGame(){
  $('diffs').innerHTML=Object.entries(DIFF_INFO).map(([k,D])=>`<button class="diff ${k===ngDiff?'on':''}" data-diff="${k}" aria-pressed="${k===ngDiff}">${D.n}<small>${D.d}</small></button>`).join('');
+ {const b=$('ng-iron');b.classList.toggle('on',ngIron);b.setAttribute('aria-pressed',ngIron);}
  $('ng-warn').textContent=hasSave()?'⚠️ Současná kampaň bude přepsána a roztrhané karty se vrátí. Pro jistotu ji můžeš nejdřív uložit nebo exportovat v okně Kampaň.':'';
 }
 async function startNewGame(){
  if(hasSave()&&!await ask({title:'🔄 Přepsat kampaň?',text:'Současný postup bude ztracen.',ok:'Začít znovu',danger:true}))return;
- await newCampaign(ngDiff,true);
+ await newCampaign(ngDiff,true,ngIron);
 }
 function toggleFullscreen(){try{if(document.fullscreenElement)document.exitFullscreen();else document.documentElement.requestFullscreen().catch(()=>toast('Prohlížeč nepovolil celou obrazovku.'));}catch(e){toast('Prohlížeč nepodporuje celou obrazovku.');}}
 document.addEventListener('fullscreenchange',()=>{if(isHome())renderHome();});
@@ -2710,7 +2649,7 @@ addEventListener('resize',()=>{HCV.bg=null;});
 /* =========================================================
    PRŮVODCE PRVNÍM KOLEM (0.8.0)
    ========================================================= */
-const TUT_KEY='kraluvOdkazPruvodce';
+const TUT_KEY='zk_tutorial';
 const TUT=[
  {sel:'header .res',t:'💰 Suroviny',x:'Zlato, dřevo, kámen, síla a sláva. Na začátku každého kola se suroviny vynulují (kromě slávy), tak je utrať, dokud je máš!'},
  {sel:'#board .card',t:'🃏 Tvoje karty',x:'Každá karta je část království. Klepni na ni a otevře se detail se všemi akcemi: aktivace, vylepšení, pečeť nebo boj.'},
@@ -2743,9 +2682,9 @@ addEventListener('resize',()=>{if(tutI>=0)tutShow();});
 const tutDone=()=>{try{return localStorage.getItem(TUT_KEY)==='1';}catch(e){return true;}};
 
 /* =========================================================
-   OČISTA A SÍŇ SLÁVY (0.8.0)
+   OBĚŤ KORUNY A SÍŇ SLÁVY
    ========================================================= */
-const HALL_KEY='kraluvOdkazSinSlavy';
+const HALL_KEY='zk_hall';
 const hallLoad=()=>{try{const a=JSON.parse(localStorage.getItem(HALL_KEY)||'[]');return Array.isArray(a)?a:[];}catch(e){return [];}};
 const hallSave=a=>{try{localStorage.setItem(HALL_KEY,JSON.stringify(a.slice(0,30)));}catch(e){}};
 function purgeValue(c){const I=info(c);
@@ -2755,8 +2694,8 @@ const purgeable=()=>state.board.filter(c=>purgeValue(c)>0&&!blockerOf(c));
 let purgePick=[];
 function legacyScore(purge){
  const l=state.legacy,maxed=state.board.filter(c=>{const d=CARDS[c.key];return d.levels&&c.lvl===d.levels.length-1;}).length;
- const parts=[['🏆 Sláva',state.res.fame],['🔥 Očista',purge],['⚔️ Poražení nepřátelé ×2',l.kills*2],['⬆️ Budovy na max. úrovni ×3',maxed*3],['📜 Kapitoly ×5',l.chapter*5],['🏅 Úspěchy ×2',l.achievements.length*2],['🏛️ Trvalé karty ×4',l.perms.length*4]];
- const mult={easy:.8,normal:1,hard:1.3}[l.difficulty];const base=parts.reduce((n,p)=>n+p[1],0);
+ const parts=[['🏆 Sláva',state.res.fame],['👑 Oběť koruny',purge],['⚔️ Poražení nepřátelé ×2',l.kills*2],['⬆️ Budovy na max. úrovni ×3',maxed*3],['📜 Kapitoly ×5',l.chapter*5],['🏅 Úspěchy ×2',l.achievements.length*2],['🏛️ Trvalé karty ×4',l.perms.length*4]];
+ const mult={easy:.8,normal:1,hard:1.3}[l.difficulty]*(l.iron?1.2:1);const base=parts.reduce((n,p)=>n+p[1],0);
  return {parts,mult,total:Math.round(base*mult)};
 }
 function scoreRank(sc,ch){
@@ -2765,35 +2704,35 @@ function scoreRank(sc,ch){
 }
 function renderEnd(){
  const l=state.legacy,box=$('end-body');
- if(!l.hall){ // fáze 1: očista
+ if(!l.hall){ // fáze 1: oběť koruny
   const list=purgeable();purgePick=purgePick.filter(id=>list.some(c=>c.id===id));
   const sum=purgePick.reduce((n,id)=>n+purgeValue(byId(id)),0);
-  box.innerHTML=`<h2>🔥 Očista</h2><p>Kampaň končí. Vyber až <b>3 přátelské karty</b>, které obětuješ – budou zničeny, ale jejich sláva se zapíše do tvého odkazu navždy. Očistu můžeš i přeskočit.</p>
+  box.innerHTML=`<h2>👑 Oběť koruny</h2><p>Kampaň končí. Vyber až <b>3 přátelské karty</b>, které obětuješ koruně – budou zničeny, ale jejich sláva se navždy připíše ke slávě tvé dynastie. Oběť můžeš i přeskočit.</p>
    <div class="pgrid">${list.length?list.map(c=>`<button class="pslot${purgePick.includes(c.id)?' on':''}" data-purge="${c.id}">${miniCard(c.key,c.lvl)}<span class="pv">+${purgeValue(c)} 🏆</span></button>`).join(''):'<p>Nemáš žádnou kartu, kterou by šlo obětovat.</p>'}</div>
-   <p class="psum">Vybráno ${purgePick.length}/3 · očista přinese <b>+${sum} 🏆</b></p>
-   <div class="dbtns"><button class="sec" data-endact="skip">Přeskočit</button><button class="ok" data-endact="purge" ${purgePick.length?'':'disabled'}>🔥 Provést očistu</button></div>`;
+   <p class="psum">Vybráno ${purgePick.length}/3 · oběť přinese <b>+${sum} 🏆</b></p>
+   <div class="dbtns"><button class="sec" data-endact="skip">Přeskočit</button><button class="ok" data-endact="purge" ${purgePick.length?'':'disabled'}>👑 Obětovat koruně</button></div>`;
   return;
  }
  // fáze 2: výsledek a síň slávy
  const H=hallLoad(),me=l.hall,S=me.score;
  box.innerHTML=`<h2>🏆 Vyhodnocení kampaně</h2>
   <div class="rank"><span>Získaný titul:</span><b>${esc(me.rank)}</b></div>
-  <div class="sbreak">${S.parts.filter(p=>p[1]).map(p=>`<div><span>${p[0]}</span><b>${p[1]}</b></div>`).join('')}<div><span>Obtížnost ×${S.mult}</span><b></b></div><div class="tot"><span>Body odkazu</span><b>${S.total}</b></div></div>
+  <div class="sbreak">${S.parts.filter(p=>p[1]).map(p=>`<div><span>${p[0]}</span><b>${p[1]}</b></div>`).join('')}<div><span>${me.iron?'Obtížnost a 👑 Železný král':'Obtížnost'} ×${String(+S.mult.toFixed(2)).replace('.',',')}</span><b></b></div><div class="tot"><span>Body slávy dynastie</span><b>${S.total}</b></div></div>
   <h3>🏛️ Síň slávy</h3>${hallHTML(H,me.id)}
   <button class="wide-btn" data-close>Zpět do království</button>`;
 }
 function hallHTML(H,hl){
  if(!H.length)return '<p>Síň slávy je zatím prázdná. Dohraj kampaň a zapiš se do ní!</p>';
- return `<ol class="hall">${H.map((h,i)=>`<li class="${h.id===hl?'me':''}"><span class="hp">${i+1}.</span><span class="hn"><b>${esc(h.rank)}</b><small>${new Date(h.date).toLocaleDateString('cs-CZ')} · ${DIFF_INFO[h.diff]?.n||''} · kapitola ${h.chapter}/10 · ${h.rounds} kol</small></span><span class="hs">${h.score.total}</span></li>`).join('')}</ol>`;
+ return `<ol class="hall">${H.map((h,i)=>`<li class="${h.id===hl?'me':''}"><span class="hp">${i+1}.</span><span class="hn"><b>${h.iron?'👑 ':''}${esc(h.rank)}</b><small>${new Date(h.date).toLocaleDateString('cs-CZ')} · ${DIFF_INFO[h.diff]?.n||''}${h.iron?' · Železný král':''} · kapitola ${h.chapter}/10 · ${h.rounds} kol</small></span><span class="hs">${h.score.total}</span></li>`).join('')}</ol>`;
 }
 function doPurge(skip){
  const l=state.legacy;if(l.hall)return;
  let sum=0;const names=[];
  if(!skip){for(const id of purgePick){const c=byId(id);if(!c)continue;sum+=purgeValue(c);names.push(info(c).name);const g=grabCard(id);state.board.splice(state.board.indexOf(c),1);state.destroyedCount++;colBump('torn',c.key);fxLater(()=>tearFx(g));}}
- const S=legacyScore(sum),entry={id:Date.now(),date:Date.now(),diff:l.difficulty,chapter:l.chapter,rounds:state.round,score:S,rank:scoreRank(S.total,l.chapter)};
+ const S=legacyScore(sum),entry={id:Date.now(),date:Date.now(),diff:l.difficulty,chapter:l.chapter,rounds:state.round,score:S,rank:scoreRank(S.total,l.chapter),iron:!!l.iron};
  l.hall=entry;l.purgeSum=sum;undoStack=[];ui.undoBlocked=true;
  const H=hallLoad();H.push(entry);H.sort((a,b)=>b.score.total-a.score.total);hallSave(H);
- logAction(names.length?`🔥 Očista: obětováno ${names.join(', ')} (+${sum}🏆 odkazu).`:'Kampaň vyhodnocena bez očisty.');
+ logAction(names.length?`👑 Oběť koruny: obětováno ${names.join(', ')} (+${sum}🏆 slávy dynastie).`:'Kampaň vyhodnocena bez oběti koruny.');
  logAction(`🏛️ Zápis do Síně slávy: ${entry.rank}, ${S.total} bodů.`);
  sound(names.length?'tear':'upgrade');fanfare();commit();renderEnd();
 }
@@ -2857,7 +2796,7 @@ const RULES=[
  {t:'📋 Zakázky a události',h:`<p><b>📋 Zakázky dvora</b> – na začátku každého kola ti postavy z dvora zadají úkol (od kapitoly III dva). Najdeš je nad kartami. Když ho během kola splníš, odměnu dostaneš hned. Nesplněná zakázka na konci kola propadne bez trestu.</p><p><b>📯 Události</b> – od 3. kola se mezi koly občas něco stane. Vybereš jednu ze dvou možností: dražší bývá výhodnější, druhá je zdarma, ale může tě stát slávu nebo přivést nepřítele. Rozhodnout se můžeš kdykoli během kola, nejpozději před dalším kolem.</p><p>Některé volby mají <b>pokračování</b> – za pár kol se vrátí s odměnou nebo potížemi.</p>`},
  {t:'🔒 Obsazení, políčka, trvalé karty',h:`<div class="rkey"><b>🔒</b><span><b>Obsazení</b> – někteří nepřátelé si sednou na tvou budovu. Ta nic nevyrábí a nejde vylepšit, dokud nepřítele neporazíš.</span><b>☑️</b><span><b>Políčka</b> – karta s políčky si pamatuje, kolikrát jsi ji použil. Po zaplnění se něco stane (pečeť, trvalá karta, vyčerpání dolu…).</span><b>🔀</b><span><b>Volba produkce</b> – karta s lomítkem (2🪙 / 2🪨) dá jen jednu z možností. Vybereš v detailu karty.</span><b>🃏</b><span><b>Volba strany</b> – některé objevené karty (Mýtina, Kámen záhad) se promění v jednu ze dvou budov podle tvé volby.</span><b>🏛️</b><span><b>Trvalé karty</b> – leží nad stolem, nejdou zničit a dávají bonus na začátku každého kola.</span></div>`},
  {t:'🧭 Oblasti a diplomacie',h:`<p>V okně <b>Oblasti</b> odemykáš krajiny, zakládáš <b>obchodní stezky</b> (bonus na začátku každého kola) a vysíláš <b>výpravy</b> – do každé oblasti jednou za kolo. Proti strážci pomáhá každá budova, která produkuje sílu.</p><p><b>Diplomacie</b> (spojenectví, tribut, výpad) jde použít jednou za kolo.</p><p><b>Rozšíření</b> zamícháš do balíčku v 📜 Menu.</p>`},
- {t:'🏛️ Konec kampaně a Síň slávy',h:`<p>Kampaň končí, když dohraješ 10. kapitolu nebo když dojde balíček (tlačítko 🏆 Vyhodnotit hru).</p><p><b>🔥 Očista</b> – můžeš obětovat až 3 přátelské karty. Zmizí, ale jejich sláva se připíše k odkazu: stavba dá 3 body za každou úroveň a 2 za každou 🏆 produkce, obchodník 3, pečeť +2.</p><p><b>Body odkazu</b> = sláva + očista + poražení nepřátelé ×2 + budovy na max. úrovni ×3 + kapitoly ×5 + úspěchy ×2 + trvalé karty ×4, celé krát obtížnost (lehká ×0,8, těžká ×1,3). Výsledek se zapíše do <b>Síně slávy</b>.</p>`},
+ {t:'🏛️ Konec kampaně a Síň slávy',h:`<p>Kampaň končí, když dohraješ 10. kapitolu nebo když dojde balíček (tlačítko 🏆 Vyhodnotit hru).</p><p><b>👑 Oběť koruny</b> – můžeš obětovat až 3 přátelské karty. Zmizí, ale jejich sláva se připíše ke slávě dynastie: stavba dá 3 body za každou úroveň a 2 za každou 🏆 produkce, obchodník 3, pečeť +2.</p><p><b>Body slávy dynastie</b> = sláva + oběť koruny + poražení nepřátelé ×2 + budovy na max. úrovni ×3 + kapitoly ×5 + úspěchy ×2 + trvalé karty ×4, celé krát obtížnost (lehká ×0,8, těžká ×1,3) a ×1,2 za Železného krále. Výsledek se zapíše do <b>Síně slávy</b>.</p>`},
  {t:'🎮 Ovládání a ukládání',h:`<p><b>Klepni na kartu</b> – otevře se detail se všemi akcemi a cenami. Když něco chybí, uvidíš kolik.</p><div class="rkey"><b>⬆</b>budovu jde hned vylepšit<b>💥</b>na nepřítele máš dost síly<b>✓</b>obchod nebo událost si můžeš dovolit</div><p><b>↶ Zpět</b> vrátí až 12 posledních akcí – kromě objevení karty. Hra se ukládá sama, v okně Kampaň máš 3 pozice a export do souboru.</p>`}
 ];
 let rPage=0;
@@ -2905,7 +2844,7 @@ function renderCampaign(){
   ${active?`<p>Postup: ${g.details}</p><div class="bar"><div style="width:${g.pct}%"></div></div><button id="b-claim" ${g.ready?'':'disabled'}>🏆 Dokončit kapitolu</button>`:done?'<p>✓ Splněno</p>':''}</div>`;}).join('');
  $('battle-stats').innerHTML=`<div><b>${l.e8.battles}</b>bitev</div><div><b>${l.e8.wins}</b>vítězství</div><div><b>${l.e8.defeats}</b>slávy ztraceno</div>`;
  $('achievements').innerHTML=ACHIEVEMENTS.map(([id,name,desc])=>{const got=l.achievements.includes(id);return `<div class="ach ${got?'got':''}"><b>${got?'🏅':'🔒'} ${name}</b><span>${desc}</span></div>`;}).join('');
- $('slots').innerHTML=[1,2,3].map(n=>{const s=slotData(n);
+ $('slots').innerHTML=l.iron?'<p>👑 Železný král má jen jediné uložení – pozice a import jsou vypnuté. Export pro zálohu funguje.</p>':[1,2,3].map(n=>{const s=slotData(n);
   return `<div class="slot"><div><strong>${esc(s?s.name:'Prázdná pozice')}</strong><small>${s?.saved?new Date(s.saved).toLocaleString('cs-CZ'):''}${s?.state?` · kolo ${s.state.round}`:''}</small></div>
   <div><button data-slot="save" data-n="${n}">💾 Uložit</button><button data-slot="load" data-n="${n}" ${s?'':'disabled'}>📂 Načíst</button><button data-slot="del" data-n="${n}" ${s?'':'disabled'} aria-label="Smazat pozici ${n}">✕</button></div></div>`;}).join('');
 }
@@ -2954,7 +2893,7 @@ document.addEventListener('click',e=>{
  const war=t.closest('[data-war]');if(war){addWarPack(war.dataset.war);return;}
  const reg=t.closest('[data-region]');if(reg){worldAction(reg.dataset.region,reg.dataset.ra);return;}
  const dip=t.closest('[data-diplo]');if(dip){diplomacy(dip.dataset.diplo);return;}
- const sl=t.closest('[data-slot]');if(sl){const n=+sl.dataset.n;({save:saveSlot,load:loadSlot,del:deleteSlot})[sl.dataset.slot](n);return;}
+ const sl=t.closest('[data-slot]');if(sl){if(state.legacy.iron){toast('👑 Železný král má jen jediné uložení.');return;}const n=+sl.dataset.n;({save:saveSlot,load:loadSlot,del:deleteSlot})[sl.dataset.slot](n);return;}
  const pl=t.closest('[data-card]');if(pl){openSheet(+pl.dataset.card);return;}
  if(t.id==='b-claim')claimChapter();
 });
@@ -2990,6 +2929,7 @@ $('home').addEventListener('click',e=>{
 });
 $('diffs').addEventListener('click',e=>{const b=e.target.closest('[data-diff]');if(b){ngDiff=b.dataset.diff;renderNewGame();}});
 $('b-start').onclick=startNewGame;
+$('ng-iron').onclick=()=>{ngIron=!ngIron;sound('click');renderNewGame();};
 $('b-reset').onclick=()=>newCampaign('normal');
 $('b-new').onclick=()=>newCampaign($('difficulty').value);
 $('b-export').onclick=exportSave;
@@ -3008,7 +2948,7 @@ window.addEventListener('pagehide',persist);
    APLIKACE (GitHub Pages): offline a aktualizace jen po potvrzení
    ========================================================= */
 const IS_WEB=/^https?:$/.test(location.protocol)&&'serviceWorker' in navigator;
-const SKIP_KEY='kraluvOdkazSkipVersion';
+const SKIP_KEY='zk_skipVersion';
 const UPD={reg:null,info:null};
 const isNewer=(a,b)=>{const x=String(a).split('.').map(Number),y=String(b).split('.').map(Number);for(let i=0;i<Math.max(x.length,y.length);i++){const d=(x[i]||0)-(y[i]||0);if(d)return d>0;}return false;};
 async function checkUpdate(manual){

@@ -1,9 +1,9 @@
 {
- "version": "0.8.0",
+ "version": "0.9.0",
  "notes": [
-  "🧭 Průvodce prvním kolem: při první nové kampani hra krok za krokem ukáže suroviny, karty, Aktivovat vše, zakázky, cíl kapitoly, Objevit, Další kolo a Menu. Kdykoli ho spustíš znovu v Pravidlech.",
-  "🔥 Očista (podle pravidel Králova odkazu): na konci kampaně můžeš obětovat až 3 přátelské karty. Zmizí, ale jejich sláva se zapíše do tvého odkazu – čím vylepšenější karta, tím víc.",
-  "🏛️ Síň slávy: každá dohraná kampaň dostane body odkazu (sláva, očista, poražení nepřátelé, budovy na max. úrovni, kapitoly, úspěchy a trvalé karty, krát obtížnost) a titul. Nejlepší výsledky se drží v žebříčku – otevřeš ho v hlavním menu nebo v okně Kampaň.",
-  "🎬 Živé pozadí menu (plátno z 0.7.8) je teď výchozí. Úklid: odstraněno staré pozadí, které blikalo, soubor je menší."
+  "👑 Železný král: nový způsob hraní kampaně bez tlačítka Zpět, s jediným uložením a častějšími útoky Automy. V Síni slávy dostane korunku a body ×1,2. Zapneš ho při zakládání nové kampaně.",
+  "👑 Oběť koruny: na konci kampaně obětuješ až 3 přátelské karty a jejich sláva se připíše ke slávě dynastie. Výsledek se počítá v bodech slávy dynastie.",
+  "Nové názvy: úspěch Strážce trůnu, kapitola Věčná sláva.",
+  "Úklid před vydáním: nová historie verzí, přejmenovaná místa pro ukládání. Rozehraná kampaň, uložené pozice, sbírka karet, Síň slávy i nastavení zvuku se převezmou samy."
  ]
 }
