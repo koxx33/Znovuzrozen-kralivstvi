@@ -1,38 +1,57 @@
 {
- "version": "0.10.0",
+ "version": "0.10.1",
  "notes": [
-  "🌐 Hra mluví sedmi jazyky: čeština, angličtina, němčina, polština, francouzština, španělština a ukrajinština. Při prvním spuštění se jazyk vybere podle telefonu, změníš ho dlaždicí 🌐 v hlavním menu.",
-  "Přeložené je všechno: karty, události, zakázky, kapitoly, pravidla, průvodce, menu i novinky. Data, sbírka a Síň slávy zůstávají při změně jazyka beze změny.",
-  "Vibrace se teď zapínají v panelu 🔊 Zvuk a hudba."
+  "🌐 Přibyla maďarština a švédština – hra teď mluví devíti jazyky.",
+  "Jazyk se při spuštění vybírá podle nastavení telefonu (i podle dalších jazyků v pořadí). Když hra jazyk telefonu nezná, spustí se anglicky.",
+  "Opraveno: česká úvodní obrazovka v jiných jazycích, český štítek NOVÁ ve sbírce karet a nabídka Chromu „Přeložit stránku“.",
+  "Název karty v pásce je posazený výš, aby se nedotýkal spodního okraje."
  ],
  "notes_en": [
-  "🌐 The game speaks seven languages: Czech, English, German, Polish, French, Spanish and Ukrainian. On first launch the language is chosen from your phone; change it with the 🌐 tile in the main menu.",
-  "Everything is translated: cards, events, commissions, chapters, rules, the guide, menus and news. Your data, collection and Hall of Fame stay unchanged when you switch languages.",
-  "Vibration is now switched on in the 🔊 Sound and music panel."
+  "🌐 Hungarian and Swedish have been added – the game now speaks nine languages.",
+  "On launch the language follows your phone settings (including your other languages in order). If the game doesn't know your phone's language, it starts in English.",
+  "Fixed: the Czech start screen in other languages, the Czech NEW badge in the card collection and Chrome's “Translate page” offer.",
+  "The card name in its banner sits higher so it no longer touches the bottom edge."
  ],
  "notes_de": [
-  "🌐 Das Spiel spricht sieben Sprachen: Tschechisch, Englisch, Deutsch, Polnisch, Französisch, Spanisch und Ukrainisch. Beim ersten Start wird die Sprache nach dem Telefon gewählt, ändern kannst du sie mit der Kachel 🌐 im Hauptmenü.",
-  "Alles ist übersetzt: Karten, Ereignisse, Aufträge, Kapitel, Regeln, Anleitung, Menüs und Neuigkeiten. Daten, Sammlung und Ruhmeshalle bleiben beim Sprachwechsel unverändert.",
-  "Die Vibration schaltest du jetzt im Bereich 🔊 Klang und Musik ein."
+  "🌐 Ungarisch und Schwedisch sind dazugekommen – das Spiel spricht jetzt neun Sprachen.",
+  "Beim Start richtet sich die Sprache nach den Telefoneinstellungen (auch nach weiteren Sprachen in ihrer Reihenfolge). Kennt das Spiel die Sprache des Telefons nicht, startet es auf Englisch.",
+  "Behoben: tschechischer Startbildschirm in anderen Sprachen, tschechisches NEU-Schild in der Kartensammlung und Chromes Angebot „Seite übersetzen“.",
+  "Der Kartenname im Banner sitzt höher und berührt den unteren Rand nicht mehr."
  ],
  "notes_pl": [
-  "🌐 Gra mówi w siedmiu językach: czeskim, angielskim, niemieckim, polskim, francuskim, hiszpańskim i ukraińskim. Przy pierwszym uruchomieniu język wybierze się według telefonu, zmienisz go kafelkiem 🌐 w menu głównym.",
-  "Przetłumaczone jest wszystko: karty, wydarzenia, zlecenia, rozdziały, zasady, przewodnik, menu i nowości. Dane, kolekcja i Galeria sław pozostają bez zmian przy zmianie języka.",
-  "Wibracje włączasz teraz w panelu 🔊 Dźwięk i muzyka."
+  "🌐 Doszedł węgierski i szwedzki – gra mówi teraz w dziewięciu językach.",
+  "Przy uruchomieniu język wybiera się według ustawień telefonu (także według kolejnych języków). Gdy gra nie zna języka telefonu, uruchomi się po angielsku.",
+  "Naprawiono: czeski ekran startowy w innych językach, czeską plakietkę NOWA w kolekcji kart i propozycję Chrome „Przetłumaczyć stronę”.",
+  "Nazwa karty na wstędze jest wyżej i nie dotyka już dolnej krawędzi."
  ],
  "notes_fr": [
-  "🌐 Le jeu parle sept langues : tchèque, anglais, allemand, polonais, français, espagnol et ukrainien. Au premier lancement, la langue est choisie d'après ton téléphone ; tu la changes avec la tuile 🌐 du menu principal.",
-  "Tout est traduit : cartes, événements, commandes, chapitres, règles, guide, menus et nouveautés. Tes données, ta collection et le Panthéon restent inchangés quand tu changes de langue.",
-  "Les vibrations s'activent maintenant dans le panneau 🔊 Son et musique."
+  "🌐 Le hongrois et le suédois sont arrivés – le jeu parle maintenant neuf langues.",
+  "Au lancement, la langue suit les réglages du téléphone (y compris tes autres langues dans l'ordre). Si le jeu ne connaît pas la langue du téléphone, il démarre en anglais.",
+  "Corrigé : l'écran d'accueil en tchèque dans les autres langues, l'étiquette tchèque NOUVELLE dans la collection et la proposition de Chrome « Traduire la page ».",
+  "Le nom de la carte dans sa bannière est placé plus haut et ne touche plus le bord inférieur."
  ],
  "notes_es": [
-  "🌐 El juego habla siete idiomas: checo, inglés, alemán, polaco, francés, español y ucraniano. En el primer inicio el idioma se elige según tu teléfono; lo cambias con el mosaico 🌐 del menú principal.",
-  "Todo está traducido: cartas, eventos, encargos, capítulos, reglas, guía, menús y novedades. Tus datos, tu colección y el Salón de la fama no cambian al cambiar de idioma.",
-  "La vibración ahora se activa en el panel 🔊 Sonido y música."
+  "🌐 Se han añadido el húngaro y el sueco: el juego ya habla nueve idiomas.",
+  "Al iniciar, el idioma sigue los ajustes del teléfono (también tus otros idiomas por orden). Si el juego no conoce el idioma del teléfono, se inicia en inglés.",
+  "Corregido: la pantalla de inicio en checo en otros idiomas, la etiqueta checa NUEVA en la colección de cartas y la oferta de Chrome «Traducir página».",
+  "El nombre de la carta en su cinta está más arriba y ya no toca el borde inferior."
  ],
  "notes_uk": [
-  "🌐 Гра розмовляє сімома мовами: чеською, англійською, німецькою, польською, французькою, іспанською та українською. Під час першого запуску мову буде обрано за телефоном, змінити її можна плиткою 🌐 у головному меню.",
-  "Перекладено все: карти, події, доручення, розділи, правила, посібник, меню й новини. Дані, колекція та Зала слави під час зміни мови залишаються без змін.",
-  "Вібрацію тепер вмикають на панелі 🔊 Звук і музика."
+  "🌐 Додано угорську та шведську – тепер гра розмовляє дев'ятьма мовами.",
+  "Під час запуску мова відповідає налаштуванням телефону (зокрема й іншим мовам за порядком). Якщо гра не знає мови телефону, вона запуститься англійською.",
+  "Виправлено: чеський стартовий екран в інших мовах, чеська позначка НОВА в колекції карт і пропозиція Chrome «Перекласти сторінку».",
+  "Назва карти на стрічці розташована вище й більше не торкається нижнього краю."
+ ],
+ "notes_hu": [
+  "🌐 Bekerült a magyar és a svéd – a játék most kilenc nyelven beszél.",
+  "Indításkor a nyelv a telefon beállításait követi (a további nyelveket is sorrendben). Ha a játék nem ismeri a telefon nyelvét, angolul indul.",
+  "Javítva: cseh kezdőképernyő más nyelveken, cseh ÚJ címke a kártyagyűjteményben és a Chrome „Oldal fordítása” ajánlata.",
+  "A kártya neve a szalagon feljebb került, így már nem ér az alsó széléhez."
+ ],
+ "notes_sv": [
+  "🌐 Ungerska och svenska har tillkommit – spelet talar nu nio språk.",
+  "Vid start följer språket telefonens inställningar (även dina övriga språk i ordning). Om spelet inte kan telefonens språk startar det på engelska.",
+  "Åtgärdat: tjeckisk startskärm på andra språk, tjeckisk NY-etikett i kortsamlingen och Chromes erbjudande ”Översätt sidan”.",
+  "Kortets namn i bandet sitter högre och nuddar inte längre nederkanten."
  ]
 }
