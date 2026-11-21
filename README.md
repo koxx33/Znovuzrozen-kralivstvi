@@ -1,7 +1,10 @@
-# 👑 Znovuzrození království v0.9.0
+# 👑 Znovuzrození království v0.10.0
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
+
+Jazyky: čeština, angličtina, němčina, polština, francouzština, španělština a ukrajinština
+(při prvním spuštění podle telefonu, změna dlaždicí 🌐 v hlavním menu).
 
 ## Hrát
 - **Online / jako aplikace:** otevři adresu GitHub Pages (viz níže) a v menu prohlížeče zvol
@@ -20,11 +23,10 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.9.0
-- 👑 Železný král: nový způsob hraní kampaně bez tlačítka Zpět, s jediným uložením a častějšími útoky Automy. V Síni slávy dostane korunku a body ×1,2. Zapneš ho při zakládání nové kampaně.
-- 👑 Oběť koruny: na konci kampaně obětuješ až 3 přátelské karty a jejich sláva se připíše ke slávě dynastie. Výsledek se počítá v bodech slávy dynastie.
-- Nové názvy: úspěch Strážce trůnu, kapitola Věčná sláva.
-- Úklid před vydáním: nová historie verzí, přejmenovaná místa pro ukládání. Rozehraná kampaň, uložené pozice, sbírka karet, Síň slávy i nastavení zvuku se převezmou samy.
+## Novinky ve verzi 0.10.0
+- 🌐 Hra mluví sedmi jazyky: čeština, angličtina, němčina, polština, francouzština, španělština a ukrajinština. Při prvním spuštění se jazyk vybere podle telefonu, změníš ho dlaždicí 🌐 v hlavním menu.
+- Přeložené je všechno: karty, události, zakázky, kapitoly, pravidla, průvodce, menu i novinky. Data, sbírka a Síň slávy zůstávají při změně jazyka beze změny.
+- Vibrace se teď zapínají v panelu 🔊 Zvuk a hudba.
 
 ## Soubory
 | Soubor | K čemu je |

@@ -1,9 +1,38 @@
 {
- "version": "0.9.0",
+ "version": "0.10.0",
  "notes": [
-  "👑 Železný král: nový způsob hraní kampaně bez tlačítka Zpět, s jediným uložením a častějšími útoky Automy. V Síni slávy dostane korunku a body ×1,2. Zapneš ho při zakládání nové kampaně.",
-  "👑 Oběť koruny: na konci kampaně obětuješ až 3 přátelské karty a jejich sláva se připíše ke slávě dynastie. Výsledek se počítá v bodech slávy dynastie.",
-  "Nové názvy: úspěch Strážce trůnu, kapitola Věčná sláva.",
-  "Úklid před vydáním: nová historie verzí, přejmenovaná místa pro ukládání. Rozehraná kampaň, uložené pozice, sbírka karet, Síň slávy i nastavení zvuku se převezmou samy."
+  "🌐 Hra mluví sedmi jazyky: čeština, angličtina, němčina, polština, francouzština, španělština a ukrajinština. Při prvním spuštění se jazyk vybere podle telefonu, změníš ho dlaždicí 🌐 v hlavním menu.",
+  "Přeložené je všechno: karty, události, zakázky, kapitoly, pravidla, průvodce, menu i novinky. Data, sbírka a Síň slávy zůstávají při změně jazyka beze změny.",
+  "Vibrace se teď zapínají v panelu 🔊 Zvuk a hudba."
+ ],
+ "notes_en": [
+  "🌐 The game speaks seven languages: Czech, English, German, Polish, French, Spanish and Ukrainian. On first launch the language is chosen from your phone; change it with the 🌐 tile in the main menu.",
+  "Everything is translated: cards, events, commissions, chapters, rules, the guide, menus and news. Your data, collection and Hall of Fame stay unchanged when you switch languages.",
+  "Vibration is now switched on in the 🔊 Sound and music panel."
+ ],
+ "notes_de": [
+  "🌐 Das Spiel spricht sieben Sprachen: Tschechisch, Englisch, Deutsch, Polnisch, Französisch, Spanisch und Ukrainisch. Beim ersten Start wird die Sprache nach dem Telefon gewählt, ändern kannst du sie mit der Kachel 🌐 im Hauptmenü.",
+  "Alles ist übersetzt: Karten, Ereignisse, Aufträge, Kapitel, Regeln, Anleitung, Menüs und Neuigkeiten. Daten, Sammlung und Ruhmeshalle bleiben beim Sprachwechsel unverändert.",
+  "Die Vibration schaltest du jetzt im Bereich 🔊 Klang und Musik ein."
+ ],
+ "notes_pl": [
+  "🌐 Gra mówi w siedmiu językach: czeskim, angielskim, niemieckim, polskim, francuskim, hiszpańskim i ukraińskim. Przy pierwszym uruchomieniu język wybierze się według telefonu, zmienisz go kafelkiem 🌐 w menu głównym.",
+  "Przetłumaczone jest wszystko: karty, wydarzenia, zlecenia, rozdziały, zasady, przewodnik, menu i nowości. Dane, kolekcja i Galeria sław pozostają bez zmian przy zmianie języka.",
+  "Wibracje włączasz teraz w panelu 🔊 Dźwięk i muzyka."
+ ],
+ "notes_fr": [
+  "🌐 Le jeu parle sept langues : tchèque, anglais, allemand, polonais, français, espagnol et ukrainien. Au premier lancement, la langue est choisie d'après ton téléphone ; tu la changes avec la tuile 🌐 du menu principal.",
+  "Tout est traduit : cartes, événements, commandes, chapitres, règles, guide, menus et nouveautés. Tes données, ta collection et le Panthéon restent inchangés quand tu changes de langue.",
+  "Les vibrations s'activent maintenant dans le panneau 🔊 Son et musique."
+ ],
+ "notes_es": [
+  "🌐 El juego habla siete idiomas: checo, inglés, alemán, polaco, francés, español y ucraniano. En el primer inicio el idioma se elige según tu teléfono; lo cambias con el mosaico 🌐 del menú principal.",
+  "Todo está traducido: cartas, eventos, encargos, capítulos, reglas, guía, menús y novedades. Tus datos, tu colección y el Salón de la fama no cambian al cambiar de idioma.",
+  "La vibración ahora se activa en el panel 🔊 Sonido y música."
+ ],
+ "notes_uk": [
+  "🌐 Гра розмовляє сімома мовами: чеською, англійською, німецькою, польською, французькою, іспанською та українською. Під час першого запуску мову буде обрано за телефоном, змінити її можна плиткою 🌐 у головному меню.",
+  "Перекладено все: карти, події, доручення, розділи, правила, посібник, меню й новини. Дані, колекція та Зала слави під час зміни мови залишаються без змін.",
+  "Вібрацію тепер вмикають на панелі 🔊 Звук і музика."
  ]
 }
