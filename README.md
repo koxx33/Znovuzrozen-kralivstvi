@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.10.1
+# 👑 Znovuzrození království v0.11.0
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,11 +23,12 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.10.1
-- 🌐 Přibyla maďarština a švédština – hra teď mluví devíti jazyky.
-- Jazyk se při spuštění vybírá podle nastavení telefonu (i podle dalších jazyků v pořadí). Když hra jazyk telefonu nezná, spustí se anglicky.
-- Opraveno: česká úvodní obrazovka v jiných jazycích, český štítek NOVÁ ve sbírce karet a nabídka Chromu „Přeložit stránku“.
-- Název karty v pásce je posazený výš, aby se nedotýkal spodního okraje.
+## Novinky ve verzi 0.11.0
+- 🗺️ Mapa říše: okno Mapa je teď kreslená komiksová krajina. Uprostřed hrad, kolem pole, lesy, lomy a přístav – každá karta stojí na svém místě a stavby s úrovní rostou.
+- Nepřítel stojí u stavby, kterou obsadil; ostatní nepřátelé číhají na okraji údolí. Klepnutím na cokoli na mapě otevřeš kartu.
+- Neodemčené kraje jsou v mlze s cedulí a cenou průzkumu. Na stezkách jezdí vozíky, výprava z tohoto kola je vidět jako vlajka.
+- Na severu, východě a jihu jsou vidět kraje budoucích rozšíření – zatím v mlze.
+- Okno Oblasti je spojené s mapou: pod krajinou najdeš kraje, diplomacii i zprávy z hranic.
 
 ## Soubory
 | Soubor | K čemu je |
