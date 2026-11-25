@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.11.0
+# 👑 Znovuzrození království v0.12.0
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,12 +23,13 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.11.0
-- 🗺️ Mapa říše: okno Mapa je teď kreslená komiksová krajina. Uprostřed hrad, kolem pole, lesy, lomy a přístav – každá karta stojí na svém místě a stavby s úrovní rostou.
-- Nepřítel stojí u stavby, kterou obsadil; ostatní nepřátelé číhají na okraji údolí. Klepnutím na cokoli na mapě otevřeš kartu.
-- Neodemčené kraje jsou v mlze s cedulí a cenou průzkumu. Na stezkách jezdí vozíky, výprava z tohoto kola je vidět jako vlajka.
-- Na severu, východě a jihu jsou vidět kraje budoucích rozšíření – zatím v mlze.
-- Okno Oblasti je spojené s mapou: pod krajinou najdeš kraje, diplomacii i zprávy z hranic.
+## Novinky ve verzi 0.12.0
+- 📅 Denní výzva: každý den nový balíček, stejný pro všechny. 10 kol, osobní rekord a série dní v řadě.
+- ⏱️ Rychlá hra: 12 kol bez kampaně s náhodnými rozšířeními. Hraje se o body.
+- 🧩 Královské hádanky: 20 zadání s pevnými kartami a cílem. Za rychlé splnění až 👑👑👑, další hádanka se odemkne po splnění předchozí.
+- 📤 Výsledek režimu se dá sdílet jako obrázek.
+- Rozehraná kampaň se během rychlých režimů odloží a pak se vrátí beze změny.
+- Ukrajinské nadpisy mají přibalené komiksové písmo s azbukou.
 
 ## Soubory
 | Soubor | K čemu je |

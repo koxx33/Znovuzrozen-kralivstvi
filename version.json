@@ -1,66 +1,75 @@
 {
- "version": "0.11.0",
+ "version": "0.12.0",
  "notes": [
-  "🗺️ Mapa říše: okno Mapa je teď kreslená komiksová krajina. Uprostřed hrad, kolem pole, lesy, lomy a přístav – každá karta stojí na svém místě a stavby s úrovní rostou.",
-  "Nepřítel stojí u stavby, kterou obsadil; ostatní nepřátelé číhají na okraji údolí. Klepnutím na cokoli na mapě otevřeš kartu.",
-  "Neodemčené kraje jsou v mlze s cedulí a cenou průzkumu. Na stezkách jezdí vozíky, výprava z tohoto kola je vidět jako vlajka.",
-  "Na severu, východě a jihu jsou vidět kraje budoucích rozšíření – zatím v mlze.",
-  "Okno Oblasti je spojené s mapou: pod krajinou najdeš kraje, diplomacii i zprávy z hranic."
+  "📅 Denní výzva: každý den nový balíček, stejný pro všechny. 10 kol, osobní rekord a série dní v řadě.",
+  "⏱️ Rychlá hra: 12 kol bez kampaně s náhodnými rozšířeními. Hraje se o body.",
+  "🧩 Královské hádanky: 20 zadání s pevnými kartami a cílem. Za rychlé splnění až 👑👑👑, další hádanka se odemkne po splnění předchozí.",
+  "📤 Výsledek režimu se dá sdílet jako obrázek.",
+  "Rozehraná kampaň se během rychlých režimů odloží a pak se vrátí beze změny.",
+  "Ukrajinské nadpisy mají přibalené komiksové písmo s azbukou."
  ],
  "notes_en": [
-  "🗺️ Map of the realm: the Map window is now a drawn comic landscape. The castle in the middle, fields, forests, quarries and the harbour around it – every card stands in its place and buildings grow with their level.",
-  "An enemy stands by the building it occupies; other enemies lurk on the edge of the valley. Tap anything on the map to open its card.",
-  "Locked lands are in fog with a sign and the exploration cost. Carts travel the trade routes and this round's expedition shows as a flag.",
-  "In the north, east and south you can see the lands of future expansions – still in fog.",
-  "The Regions window is merged with the map: below the landscape you'll find the lands, diplomacy and news from the border."
+  "📅 Daily Challenge: a new deck every day, the same for everyone. 10 rounds, a personal best and a streak of days in a row.",
+  "⏱️ Quick Game: 12 rounds without the campaign, with random expansions. You play for points.",
+  "🧩 Royal Puzzles: 20 tasks with fixed cards and a goal. Solve them quickly for up to 👑👑👑; the next puzzle unlocks after you solve the previous one.",
+  "📤 A mode's result can be shared as an image.",
+  "Your campaign in progress is set aside during quick modes and comes back unchanged afterwards.",
+  "Ukrainian titles now have a bundled comic font with Cyrillic."
  ],
  "notes_de": [
-  "🗺️ Karte des Reiches: Das Fenster Karte ist jetzt eine gezeichnete Comic-Landschaft. In der Mitte die Burg, ringsum Felder, Wälder, Steinbrüche und der Hafen – jede Karte steht an ihrem Platz und Gebäude wachsen mit ihrer Stufe.",
-  "Ein Feind steht bei dem Gebäude, das er besetzt hat; andere Feinde lauern am Rand des Tals. Tippe auf etwas auf der Karte, um seine Karte zu öffnen.",
-  "Gesperrte Gebiete liegen im Nebel mit Schild und Erkundungskosten. Auf den Handelswegen fahren Karren, die Expedition dieser Runde zeigt eine Flagge.",
-  "Im Norden, Osten und Süden sieht man die Gebiete künftiger Erweiterungen – noch im Nebel.",
-  "Das Fenster Gebiete ist mit der Karte verbunden: Unter der Landschaft findest du Gebiete, Diplomatie und Nachrichten von der Grenze."
+  "📅 Tägliche Herausforderung: jeden Tag ein neuer Stapel, für alle gleich. 10 Runden, persönliche Bestleistung und eine Serie von Tagen in Folge.",
+  "⏱️ Schnelles Spiel: 12 Runden ohne Kampagne mit zufälligen Erweiterungen. Gespielt wird um Punkte.",
+  "🧩 Königliche Rätsel: 20 Aufgaben mit festen Karten und einem Ziel. Für schnelles Lösen bis zu 👑👑👑; das nächste Rätsel wird nach dem vorherigen freigeschaltet.",
+  "📤 Das Ergebnis eines Modus lässt sich als Bild teilen.",
+  "Deine laufende Kampagne wird während der schnellen Modi beiseitegelegt und kommt danach unverändert zurück.",
+  "Ukrainische Überschriften haben jetzt eine mitgelieferte Comic-Schrift mit Kyrillisch."
  ],
  "notes_pl": [
-  "🗺️ Mapa królestwa: okno Mapa to teraz rysowany komiksowy krajobraz. Pośrodku zamek, wokół pola, lasy, kamieniołomy i port – każda karta stoi na swoim miejscu, a budynki rosną wraz z poziomem.",
-  "Wróg stoi przy budynku, który zajął; inni wrogowie czają się na skraju doliny. Dotknij czegokolwiek na mapie, aby otworzyć kartę.",
-  "Zablokowane krainy są we mgle z tablicą i kosztem zwiadu. Po szlakach jeżdżą wozy, a wyprawa z tej rundy widnieje jako flaga.",
-  "Na północy, wschodzie i południu widać krainy przyszłych rozszerzeń – na razie we mgle.",
-  "Okno Krainy jest połączone z mapą: pod krajobrazem znajdziesz krainy, dyplomację i wieści z granicy."
+  "📅 Wyzwanie dnia: codziennie nowa talia, taka sama dla wszystkich. 10 rund, rekord osobisty i seria kolejnych dni.",
+  "⏱️ Szybka gra: 12 rund bez kampanii z losowymi rozszerzeniami. Gra się o punkty.",
+  "🧩 Królewskie zagadki: 20 zadań ze stałymi kartami i celem. Za szybkie rozwiązanie do 👑👑👑; kolejna zagadka odblokuje się po rozwiązaniu poprzedniej.",
+  "📤 Wynik trybu można udostępnić jako obrazek.",
+  "Rozpoczęta kampania na czas szybkich trybów zostaje odłożona i potem wraca bez zmian.",
+  "Ukraińskie nagłówki mają dołączoną komiksową czcionkę z cyrylicą."
  ],
  "notes_fr": [
-  "🗺️ Carte du royaume : la fenêtre Carte est maintenant un paysage de bande dessinée. Le château au centre, autour les champs, forêts, carrières et le port – chaque carte est à sa place et les bâtiments grandissent avec leur niveau.",
-  "Un ennemi se tient près du bâtiment qu'il occupe ; les autres rôdent au bord de la vallée. Touche n'importe quoi sur la carte pour ouvrir sa carte.",
-  "Les régions verrouillées sont dans le brouillard avec un panneau et le coût d'exploration. Des charrettes parcourent les routes et l'expédition du tour apparaît comme un drapeau.",
-  "Au nord, à l'est et au sud, on voit les contrées des futures extensions – encore dans le brouillard.",
-  "La fenêtre Régions est fusionnée avec la carte : sous le paysage, tu trouveras régions, diplomatie et nouvelles de la frontière."
+  "📅 Défi du jour : chaque jour une nouvelle pioche, la même pour tous. 10 tours, un record personnel et une série de jours d'affilée.",
+  "⏱️ Partie rapide : 12 tours sans la campagne, avec des extensions au hasard. On joue pour les points.",
+  "🧩 Énigmes royales : 20 défis avec des cartes et un objectif fixes. Jusqu'à 👑👑👑 pour une résolution rapide ; l'énigme suivante se débloque après la précédente.",
+  "📤 Le résultat d'un mode peut être partagé en image.",
+  "Ta campagne en cours est mise de côté pendant les modes rapides et revient ensuite inchangée.",
+  "Les titres en ukrainien ont maintenant une police BD intégrée avec le cyrillique."
  ],
  "notes_es": [
-  "🗺️ Mapa del reino: la ventana Mapa es ahora un paisaje de cómic dibujado. El castillo en el centro y alrededor campos, bosques, canteras y el puerto: cada carta está en su sitio y los edificios crecen con su nivel.",
-  "Un enemigo está junto al edificio que ocupa; los demás acechan en el borde del valle. Toca cualquier cosa del mapa para abrir su carta.",
-  "Las regiones bloqueadas están entre niebla con un cartel y el coste de exploración. Por las rutas viajan carretas y la expedición de esta ronda se ve como una bandera.",
-  "Al norte, este y sur se ven las tierras de futuras expansiones, todavía entre niebla.",
-  "La ventana Regiones se ha unido al mapa: bajo el paisaje están las regiones, la diplomacia y las noticias de la frontera."
+  "📅 Desafío diario: cada día un mazo nuevo, igual para todos. 10 rondas, récord personal y racha de días seguidos.",
+  "⏱️ Partida rápida: 12 rondas sin campaña con expansiones al azar. Se juega por puntos.",
+  "🧩 Acertijos reales: 20 retos con cartas y objetivo fijos. Hasta 👑👑👑 por resolverlos rápido; el siguiente se desbloquea al resolver el anterior.",
+  "📤 El resultado de un modo se puede compartir como imagen.",
+  "Tu campaña en curso se aparta durante los modos rápidos y luego vuelve sin cambios.",
+  "Los títulos en ucraniano tienen ahora una fuente de cómic incluida con cirílico."
  ],
  "notes_uk": [
-  "🗺️ Мапа королівства: вікно «Мапа» тепер мальований коміксовий краєвид. Посередині замок, довкола поля, ліси, каменоломні й порт – кожна карта стоїть на своєму місці, а будівлі ростуть із рівнем.",
-  "Ворог стоїть біля будівлі, яку захопив; інші вороги чатують на краю долини. Торкнися будь-чого на мапі, щоб відкрити карту.",
-  "Закриті землі в тумані з табличкою й ціною розвідки. Торговими шляхами їздять возики, а похід цього раунду видно як прапорець.",
-  "На півночі, сході й півдні видно краї майбутніх доповнень – поки що в тумані.",
-  "Вікно «Землі» об'єднано з мапою: під краєвидом знайдеш землі, дипломатію й звістки з кордону."
+  "📅 Щоденний виклик: щодня нова колода, однакова для всіх. 10 раундів, особистий рекорд і серія днів поспіль.",
+  "⏱️ Швидка гра: 12 раундів без кампанії з випадковими доповненнями. Граєш на бали.",
+  "🧩 Королівські головоломки: 20 завдань зі сталими картами й метою. За швидке розв'язання до 👑👑👑; наступна відкривається після попередньої.",
+  "📤 Результатом режиму можна поділитися як зображенням.",
+  "Розпочата кампанія під час швидких режимів відкладається й потім повертається без змін.",
+  "Українські заголовки тепер мають вбудований коміксовий шрифт з кирилицею."
  ],
  "notes_hu": [
-  "🗺️ A birodalom térképe: a Térkép ablak most rajzolt képregényes táj. Középen a vár, körülötte mezők, erdők, kőbányák és a kikötő – minden kártya a helyén áll, az épületek pedig szintjükkel nőnek.",
-  "Az ellenség az általa elfoglalt épület mellett áll; a többi a völgy szélén leselkedik. Érints meg bármit a térképen, hogy megnyisd a kártyáját.",
-  "A zárt vidékek ködben vannak táblával és a felderítés árával. Az útvonalakon szekerek járnak, az e körös expedíciót zászló jelzi.",
-  "Északon, keleten és délen látszanak a jövőbeli kiegészítők vidékei – egyelőre ködben.",
-  "A Vidékek ablak egyesült a térképpel: a táj alatt találod a vidékeket, a diplomáciát és a határ híreit."
+  "📅 Napi kihívás: minden nap új pakli, mindenkinek ugyanaz. 10 kör, egyéni rekord és egymást követő napok sorozata.",
+  "⏱️ Gyors játék: 12 kör hadjárat nélkül, véletlen kiegészítőkkel. Pontokért megy a játék.",
+  "🧩 Királyi rejtvények: 20 feladat rögzített kártyákkal és céllal. Gyors megoldásért akár 👑👑👑; a következő rejtvény az előző megoldása után nyílik meg.",
+  "📤 A mód eredménye képként megosztható.",
+  "A folyamatban lévő hadjárat a gyors módok idejére félrekerül, utána változatlanul visszatér.",
+  "Az ukrán címekhez most beépített, cirill betűs képregényes betűtípus tartozik."
  ],
  "notes_sv": [
-  "🗺️ Rikets karta: fönstret Karta är nu ett tecknat serielandskap. Borgen i mitten, runt den åkrar, skogar, stenbrott och hamnen – varje kort står på sin plats och byggnader växer med sin nivå.",
-  "En fiende står vid byggnaden den ockuperar; andra fiender lurar i dalens kant. Tryck på vad som helst på kartan för att öppna kortet.",
-  "Låsta landskap ligger i dimma med en skylt och kostnaden för utforskning. Kärror kör på handelsvägarna och omgångens expedition syns som en flagga.",
-  "I norr, öster och söder syns landskapen för framtida expansioner – ännu i dimma.",
-  "Fönstret Landskap är sammanslaget med kartan: under landskapet hittar du landskap, diplomati och nyheter från gränsen."
+  "📅 Dagens utmaning: varje dag en ny kortlek, samma för alla. 10 omgångar, personligt rekord och en svit av dagar i rad.",
+  "⏱️ Snabbspel: 12 omgångar utan kampanj med slumpade expansioner. Man spelar om poäng.",
+  "🧩 Kungliga gåtor: 20 uppgifter med fasta kort och ett mål. Snabb lösning ger upp till 👑👑👑; nästa gåta låses upp när den förra är löst.",
+  "📤 Resultatet från ett läge kan delas som bild.",
+  "Din pågående kampanj läggs undan under snabblägena och kommer sedan tillbaka oförändrad.",
+  "Ukrainska rubriker har nu ett inbyggt serietypsnitt med kyrilliska."
  ]
 }
