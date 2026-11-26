@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.12.2
+# 👑 Znovuzrození království v0.12.3
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,14 +23,11 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.12.2
-- 🗺️ Nová mapa říše: je vyšší a posouvá se prstem, takže ikony jsou větší a nepřekrývají se.
-- Karty mají na mapě své okrsky – Lomy a dílny, Pole a lesy, Trh a město, Stráž a magie a Přístav. Nepřátelé táboří na Hranicích.
-- Pod každou ikonou je jméno karty. Použitá karta dostane zelenou fajfku místo zešednutí, úroveň ukazuje štítek ★.
-- Filtry nad mapou: Vše, Budovy, Nepřátelé a Volné (karty, které v tomto kole ještě můžeš použít).
-- Zamčený kraj odemkneš klepnutím přímo na mapě. Po otevření se mapa sama posune k nepříteli.
-- 🏛️ Síň slávy má záložky Kampaně, Denní, Rychlá, Hádanky a Úspěchy – rekordy, série dnů a nejlepší hry.
-- 🏅 13 nových úspěchů za denní výzvu, rychlou hru a hádanky.
+## Novinky ve verzi 0.12.3
+- 🗺️ Mapa říše je zase opravdová krajina – hory, hvozd, močály, řeka, hrad a moře – a je dvakrát větší.
+- Mapu posouváš prstem do všech stran, dvěma prsty ji přiblížíš nebo oddálíš, dvojím klepnutím přiblížíš. Tlačítka + / − / ⤢ fungují taky.
+- Okrsky jsou místa v krajině: lomy pod horami, pole a lesy u řeky, trh u hradu, stráž za řekou a lodě v přístavu.
+- Jména, fajfky u použitých karet, štítky ★, filtry i odemykání krajů klepnutím zůstaly. Jména se při oddálení schovají.
 
 ## Soubory
 | Soubor | K čemu je |

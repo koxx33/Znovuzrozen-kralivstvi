@@ -1,84 +1,57 @@
 {
- "version": "0.12.2",
+ "version": "0.12.3",
  "notes": [
-  "🗺️ Nová mapa říše: je vyšší a posouvá se prstem, takže ikony jsou větší a nepřekrývají se.",
-  "Karty mají na mapě své okrsky – Lomy a dílny, Pole a lesy, Trh a město, Stráž a magie a Přístav. Nepřátelé táboří na Hranicích.",
-  "Pod každou ikonou je jméno karty. Použitá karta dostane zelenou fajfku místo zešednutí, úroveň ukazuje štítek ★.",
-  "Filtry nad mapou: Vše, Budovy, Nepřátelé a Volné (karty, které v tomto kole ještě můžeš použít).",
-  "Zamčený kraj odemkneš klepnutím přímo na mapě. Po otevření se mapa sama posune k nepříteli.",
-  "🏛️ Síň slávy má záložky Kampaně, Denní, Rychlá, Hádanky a Úspěchy – rekordy, série dnů a nejlepší hry.",
-  "🏅 13 nových úspěchů za denní výzvu, rychlou hru a hádanky."
+  "🗺️ Mapa říše je zase opravdová krajina – hory, hvozd, močály, řeka, hrad a moře – a je dvakrát větší.",
+  "Mapu posouváš prstem do všech stran, dvěma prsty ji přiblížíš nebo oddálíš, dvojím klepnutím přiblížíš. Tlačítka + / − / ⤢ fungují taky.",
+  "Okrsky jsou místa v krajině: lomy pod horami, pole a lesy u řeky, trh u hradu, stráž za řekou a lodě v přístavu.",
+  "Jména, fajfky u použitých karet, štítky ★, filtry i odemykání krajů klepnutím zůstaly. Jména se při oddálení schovají."
  ],
  "notes_en": [
-  "🗺️ New realm map: it's taller and scrolls with your finger, so icons are bigger and don't overlap.",
-  "Cards have their own districts on the map – Quarries & Workshops, Fields & Woods, Market & Town, Guard & Magic and Harbour. Enemies camp on the Border.",
-  "Each icon shows the card's name. A used card gets a green tick instead of greying out; the level is shown by a ★ tag.",
-  "Filters above the map: All, Buildings, Enemies and Unused (cards you can still use this round).",
-  "Unlock a locked region by tapping it right on the map. When opened, the map scrolls to the enemy by itself.",
-  "🏛️ The Hall of Fame has tabs for Campaigns, Daily, Quick, Puzzles and Achievements – records, day streaks and best games.",
-  "🏅 13 new achievements for the Daily Challenge, Quick Game and puzzles."
+  "🗺️ The realm map is a real landscape again – mountains, forest, marshes, river, castle and sea – and it's twice as big.",
+  "Drag the map in any direction with one finger, pinch with two to zoom in or out, double-tap to zoom in. The + / − / ⤢ buttons work too.",
+  "Districts are places in the landscape: quarries below the mountains, fields and woods by the river, the market by the castle, the guard across the river and ships in the harbour.",
+  "Names, ticks on used cards, ★ tags, filters and unlocking regions by tapping all stay. Names hide when you zoom out."
  ],
  "notes_de": [
-  "🗺️ Neue Reichskarte: Sie ist höher und lässt sich mit dem Finger scrollen – Symbole sind größer und überlappen nicht.",
-  "Karten haben eigene Viertel auf der Karte – Steinbrüche & Werkstätten, Felder & Wälder, Markt & Stadt, Wache & Magie und Hafen. Feinde lagern an der Grenze.",
-  "Unter jedem Symbol steht der Kartenname. Eine benutzte Karte bekommt einen grünen Haken statt auszugrauen, die Stufe zeigt ein ★-Schild.",
-  "Filter über der Karte: Alle, Gebäude, Feinde und Frei (Karten, die du in dieser Runde noch nutzen kannst).",
-  "Eine gesperrte Region schaltest du direkt auf der Karte per Tippen frei. Beim Öffnen scrollt die Karte von selbst zum Feind.",
-  "🏛️ Die Ruhmeshalle hat Reiter für Kampagnen, Täglich, Schnell, Rätsel und Erfolge – Rekorde, Tagesserien und beste Spiele.",
-  "🏅 13 neue Erfolge für die Tägliche Herausforderung, das Schnelle Spiel und die Rätsel."
+  "🗺️ Die Reichskarte ist wieder eine echte Landschaft – Berge, Wald, Sümpfe, Fluss, Burg und Meer – und doppelt so groß.",
+  "Verschiebe die Karte mit einem Finger in alle Richtungen, zoome mit zwei Fingern, tippe doppelt zum Vergrößern. Die Tasten + / − / ⤢ gehen auch.",
+  "Viertel sind Orte in der Landschaft: Steinbrüche unter den Bergen, Felder und Wälder am Fluss, der Markt bei der Burg, die Wache hinter dem Fluss und Schiffe im Hafen.",
+  "Namen, Haken bei benutzten Karten, ★-Schilder, Filter und das Freischalten von Regionen per Tippen bleiben. Beim Herauszoomen verschwinden die Namen."
  ],
  "notes_pl": [
-  "🗺️ Nowa mapa królestwa: jest wyższa i przewija się palcem, więc ikony są większe i się nie nakładają.",
-  "Karty mają na mapie swoje dzielnice – Kamieniołomy i warsztaty, Pola i lasy, Targ i miasto, Straż i magia oraz Port. Wrogowie obozują na Granicy.",
-  "Pod każdą ikoną jest nazwa karty. Użyta karta dostaje zielony znaczek zamiast szarzeć, poziom pokazuje etykieta ★.",
-  "Filtry nad mapą: Wszystko, Budynki, Wrogowie i Wolne (karty, których w tej rundzie możesz jeszcze użyć).",
-  "Zablokowaną krainę odblokujesz, stukając ją prosto na mapie. Po otwarciu mapa sama przewinie się do wroga.",
-  "🏛️ Galeria sław ma zakładki Kampanie, Dzienne, Szybka, Zagadki i Osiągnięcia – rekordy, serie dni i najlepsze gry.",
-  "🏅 13 nowych osiągnięć za wyzwanie dnia, szybką grę i zagadki."
+  "🗺️ Mapa królestwa znów jest prawdziwym krajobrazem – góry, puszcza, mokradła, rzeka, zamek i morze – i jest dwa razy większa.",
+  "Przesuwaj mapę palcem w każdą stronę, dwoma palcami przybliżaj i oddalaj, dwukrotne stuknięcie przybliża. Działają też przyciski + / − / ⤢.",
+  "Dzielnice to miejsca w krajobrazie: kamieniołomy pod górami, pola i lasy przy rzece, targ przy zamku, straż za rzeką i statki w porcie.",
+  "Nazwy, znaczki przy użytych kartach, etykiety ★, filtry i odblokowywanie krain stuknięciem zostały. Przy oddaleniu nazwy się chowają."
  ],
  "notes_fr": [
-  "🗺️ Nouvelle carte du royaume : plus haute, elle défile du doigt, donc les icônes sont plus grandes et ne se chevauchent plus.",
-  "Les cartes ont leurs quartiers sur la carte – Carrières et ateliers, Champs et bois, Marché et ville, Garde et magie, et Port. Les ennemis campent à la Frontière.",
-  "Chaque icône affiche le nom de la carte. Une carte utilisée reçoit une coche verte au lieu de griser ; le niveau s'affiche sur une étiquette ★.",
-  "Filtres au-dessus de la carte : Tout, Bâtiments, Ennemis et Libres (cartes encore utilisables ce tour).",
-  "Débloque une région verrouillée en la touchant directement sur la carte. À l'ouverture, la carte défile seule jusqu'à l'ennemi.",
-  "🏛️ Le Panthéon a des onglets Campagnes, Quotidien, Rapide, Énigmes et Succès – records, séries de jours et meilleures parties.",
-  "🏅 13 nouveaux succès pour le défi du jour, la partie rapide et les énigmes."
+  "🗺️ La carte du royaume est de nouveau un vrai paysage – montagnes, forêt, marais, rivière, château et mer – et elle est deux fois plus grande.",
+  "Fais glisser la carte d'un doigt dans tous les sens, zoome avec deux doigts, touche deux fois pour zoomer. Les boutons + / − / ⤢ marchent aussi.",
+  "Les quartiers sont des lieux du paysage : carrières sous les montagnes, champs et bois près de la rivière, marché près du château, garde de l'autre côté de la rivière et navires au port.",
+  "Les noms, les coches des cartes utilisées, les étiquettes ★, les filtres et le déblocage des régions d'une touche restent. Les noms se cachent quand tu dézoomes."
  ],
  "notes_es": [
-  "🗺️ Nuevo mapa del reino: es más alto y se desplaza con el dedo, así que los iconos son más grandes y no se solapan.",
-  "Las cartas tienen sus barrios en el mapa: Canteras y talleres, Campos y bosques, Mercado y ciudad, Guardia y magia, y Puerto. Los enemigos acampan en la Frontera.",
-  "Bajo cada icono aparece el nombre de la carta. Una carta usada lleva una marca verde en vez de atenuarse; el nivel se muestra con una etiqueta ★.",
-  "Filtros sobre el mapa: Todo, Edificios, Enemigos y Libres (cartas que aún puedes usar esta ronda).",
-  "Desbloquea una región tocándola directamente en el mapa. Al abrirlo, el mapa se desplaza solo hasta el enemigo.",
-  "🏛️ El Salón de la fama tiene pestañas Campañas, Diario, Rápida, Acertijos y Logros: récords, rachas de días y mejores partidas.",
-  "🏅 13 logros nuevos para el desafío diario, la partida rápida y los acertijos."
+  "🗺️ El mapa del reino vuelve a ser un paisaje de verdad – montañas, bosque, pantanos, río, castillo y mar – y es el doble de grande.",
+  "Arrastra el mapa en cualquier dirección con un dedo, pellizca con dos para acercar o alejar, toca dos veces para acercar. También funcionan los botones + / − / ⤢.",
+  "Los barrios son lugares del paisaje: canteras bajo las montañas, campos y bosques junto al río, el mercado junto al castillo, la guardia al otro lado del río y barcos en el puerto.",
+  "Se mantienen los nombres, las marcas de cartas usadas, las etiquetas ★, los filtros y el desbloqueo de regiones con un toque. Al alejar, los nombres se ocultan."
  ],
  "notes_uk": [
-  "🗺️ Нова мапа королівства: вона вища й гортається пальцем, тож іконки більші й не накладаються.",
-  "Карти мають на мапі свої квартали – Каменоломні й майстерні, Поля й ліси, Ринок і місто, Варта й магія та Порт. Вороги стають табором на Кордоні.",
-  "Під кожною іконкою – назва карти. Використана карта отримує зелену позначку замість сірого кольору, рівень показує ярлик ★.",
-  "Фільтри над мапою: Усе, Будівлі, Вороги та Вільні (карти, які ще можна використати в цьому раунді).",
-  "Закритий край відкриєш дотиком просто на мапі. Після відкриття мапа сама прокрутиться до ворога.",
-  "🏛️ Зала слави має вкладки Кампанії, Щоденні, Швидка, Загадки й Досягнення – рекорди, серії днів і найкращі ігри.",
-  "🏅 13 нових досягнень за щоденний виклик, швидку гру й загадки."
+  "🗺️ Мапа королівства знову справжній краєвид – гори, пуща, болота, річка, замок і море – і вдвічі більша.",
+  "Пересувай мапу пальцем у будь-який бік, двома пальцями наближай і віддаляй, подвійний дотик наближає. Кнопки + / − / ⤢ теж працюють.",
+  "Квартали – це місця в краєвиді: каменоломні під горами, поля й ліси біля річки, ринок біля замку, варта за річкою й кораблі в порту.",
+  "Назви, позначки на використаних картах, ярлики ★, фільтри й відкриття країв дотиком залишилися. Під час віддалення назви ховаються."
  ],
  "notes_hu": [
-  "🗺️ Új birodalomtérkép: magasabb, és ujjal görgethető, így az ikonok nagyobbak és nem fedik egymást.",
-  "A kártyáknak saját negyedük van a térképen – Kőfejtők és műhelyek, Mezők és erdők, Piac és város, Őrség és mágia, valamint Kikötő. Az ellenségek a Határon táboroznak.",
-  "Minden ikon alatt ott a kártya neve. A használt kártya zöld pipát kap szürkülés helyett, a szintet ★ címke mutatja.",
-  "Szűrők a térkép felett: Mind, Épületek, Ellenségek és Szabad (a körben még használható kártyák).",
-  "A lezárt vidéket közvetlenül a térképen koppintva nyithatod meg. Megnyitáskor a térkép magától az ellenséghez görget.",
-  "🏛️ A Dicsőségcsarnokban fülek vannak: Hadjáratok, Napi, Gyors, Fejtörők és Eredmények – rekordok, napi sorozatok és legjobb játékok.",
-  "🏅 13 új eredmény a napi kihívásért, a gyors játékért és a fejtörőkért."
+  "🗺️ A birodalom térképe újra igazi táj – hegyek, erdő, mocsarak, folyó, vár és tenger –, és kétszer akkora.",
+  "A térképet egy ujjal bármerre húzhatod, két ujjal nagyíthatod és kicsinyítheted, dupla koppintással nagyítasz. A + / − / ⤢ gombok is működnek.",
+  "A negyedek helyek a tájban: kőfejtők a hegyek alatt, mezők és erdők a folyónál, piac a várnál, őrség a folyón túl és hajók a kikötőben.",
+  "A nevek, a használt kártyák pipái, a ★ címkék, a szűrők és a vidékek koppintásos megnyitása megmaradt. Kicsinyítéskor a nevek elrejtőznek."
  ],
  "notes_sv": [
-  "🗺️ Ny rikskarta: den är högre och scrollas med fingret, så ikonerna är större och överlappar inte.",
-  "Korten har egna kvarter på kartan – Stenbrott och verkstäder, Fält och skogar, Marknad och stad, Vakt och magi samt Hamn. Fiender slår läger vid Gränsen.",
-  "Under varje ikon står kortets namn. Ett använt kort får en grön bock i stället för att gråas ut, nivån visas med en ★-etikett.",
-  "Filter ovanför kartan: Alla, Byggnader, Fiender och Lediga (kort du fortfarande kan använda den här rundan).",
-  "Lås upp ett låst landskap genom att trycka på det direkt på kartan. När kartan öppnas scrollar den själv till fienden.",
-  "🏛️ Ärans hall har flikar för Kampanjer, Dagliga, Snabb, Gåtor och Prestationer – rekord, dagar i rad och bästa spelen.",
-  "🏅 13 nya prestationer för dagliga utmaningen, snabbspelet och gåtorna."
+  "🗺️ Rikskartan är ett riktigt landskap igen – berg, skog, träsk, flod, borg och hav – och den är dubbelt så stor.",
+  "Dra kartan åt alla håll med ett finger, nyp med två för att zooma, dubbeltryck för att zooma in. Knapparna + / − / ⤢ fungerar också.",
+  "Kvarteren är platser i landskapet: stenbrott under bergen, fält och skogar vid floden, marknaden vid borgen, vakten på andra sidan floden och skepp i hamnen.",
+  "Namn, bockar på använda kort, ★-etiketter, filter och upplåsning av landskap med ett tryck finns kvar. Namnen döljs när du zoomar ut."
  ]
 }
