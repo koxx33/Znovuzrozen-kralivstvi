@@ -1,75 +1,57 @@
 {
- "version": "0.12.0",
+ "version": "0.12.1",
  "notes": [
-  "📅 Denní výzva: každý den nový balíček, stejný pro všechny. 10 kol, osobní rekord a série dní v řadě.",
-  "⏱️ Rychlá hra: 12 kol bez kampaně s náhodnými rozšířeními. Hraje se o body.",
-  "🧩 Královské hádanky: 20 zadání s pevnými kartami a cílem. Za rychlé splnění až 👑👑👑, další hádanka se odemkne po splnění předchozí.",
-  "📤 Výsledek režimu se dá sdílet jako obrázek.",
-  "Rozehraná kampaň se během rychlých režimů odloží a pak se vrátí beze změny.",
-  "Ukrajinské nadpisy mají přibalené komiksové písmo s azbukou."
+  "Hlavní menu se na telefonu vejde na jednu obrazovku bez posouvání – menší hlavička, nižší tlačítka a dlaždice.",
+  "Nadpisy na úvodní obrazovce a v menu se zmenší, když by se do šířky nevešly (azbuka, dlouhá maďarská slova).",
+  "Opraveno: ukrajinské nadpisy teď opravdu používají komiksové písmo s azbukou.",
+  "Na úzkých displejích už nic nepřetéká do strany (horní lišta, dlaždice, tlačítko Aktivovat vše)."
  ],
  "notes_en": [
-  "📅 Daily Challenge: a new deck every day, the same for everyone. 10 rounds, a personal best and a streak of days in a row.",
-  "⏱️ Quick Game: 12 rounds without the campaign, with random expansions. You play for points.",
-  "🧩 Royal Puzzles: 20 tasks with fixed cards and a goal. Solve them quickly for up to 👑👑👑; the next puzzle unlocks after you solve the previous one.",
-  "📤 A mode's result can be shared as an image.",
-  "Your campaign in progress is set aside during quick modes and comes back unchanged afterwards.",
-  "Ukrainian titles now have a bundled comic font with Cyrillic."
+  "The main menu now fits on one phone screen without scrolling – smaller header, lower buttons and tiles.",
+  "Titles on the splash screen and in the menu shrink when they would not fit the width (Cyrillic, long Hungarian words).",
+  "Fixed: Ukrainian titles now really use the comic font with Cyrillic.",
+  "On narrow displays nothing overflows sideways any more (top bar, tiles, the Activate all button)."
  ],
  "notes_de": [
-  "📅 Tägliche Herausforderung: jeden Tag ein neuer Stapel, für alle gleich. 10 Runden, persönliche Bestleistung und eine Serie von Tagen in Folge.",
-  "⏱️ Schnelles Spiel: 12 Runden ohne Kampagne mit zufälligen Erweiterungen. Gespielt wird um Punkte.",
-  "🧩 Königliche Rätsel: 20 Aufgaben mit festen Karten und einem Ziel. Für schnelles Lösen bis zu 👑👑👑; das nächste Rätsel wird nach dem vorherigen freigeschaltet.",
-  "📤 Das Ergebnis eines Modus lässt sich als Bild teilen.",
-  "Deine laufende Kampagne wird während der schnellen Modi beiseitegelegt und kommt danach unverändert zurück.",
-  "Ukrainische Überschriften haben jetzt eine mitgelieferte Comic-Schrift mit Kyrillisch."
+  "Das Hauptmenü passt jetzt ohne Scrollen auf einen Handybildschirm – kleinerer Kopf, flachere Schaltflächen und Kacheln.",
+  "Titel auf dem Startbildschirm und im Menü werden kleiner, wenn sie nicht in die Breite passen (Kyrillisch, lange ungarische Wörter).",
+  "Behoben: Ukrainische Titel verwenden jetzt wirklich die Comic-Schrift mit Kyrillisch.",
+  "Auf schmalen Displays läuft nichts mehr seitlich über (obere Leiste, Kacheln, Schaltfläche Alles aktivieren)."
  ],
  "notes_pl": [
-  "📅 Wyzwanie dnia: codziennie nowa talia, taka sama dla wszystkich. 10 rund, rekord osobisty i seria kolejnych dni.",
-  "⏱️ Szybka gra: 12 rund bez kampanii z losowymi rozszerzeniami. Gra się o punkty.",
-  "🧩 Królewskie zagadki: 20 zadań ze stałymi kartami i celem. Za szybkie rozwiązanie do 👑👑👑; kolejna zagadka odblokuje się po rozwiązaniu poprzedniej.",
-  "📤 Wynik trybu można udostępnić jako obrazek.",
-  "Rozpoczęta kampania na czas szybkich trybów zostaje odłożona i potem wraca bez zmian.",
-  "Ukraińskie nagłówki mają dołączoną komiksową czcionkę z cyrylicą."
+  "Menu główne mieści się teraz na jednym ekranie telefonu bez przewijania – mniejszy nagłówek, niższe przyciski i kafelki.",
+  "Tytuły na ekranie startowym i w menu zmniejszają się, gdy nie mieszczą się na szerokość (cyrylica, długie węgierskie słowa).",
+  "Naprawiono: ukraińskie tytuły naprawdę używają komiksowej czcionki z cyrylicą.",
+  "Na wąskich ekranach nic już nie wychodzi poza krawędź (górny pasek, kafelki, przycisk Aktywuj wszystko)."
  ],
  "notes_fr": [
-  "📅 Défi du jour : chaque jour une nouvelle pioche, la même pour tous. 10 tours, un record personnel et une série de jours d'affilée.",
-  "⏱️ Partie rapide : 12 tours sans la campagne, avec des extensions au hasard. On joue pour les points.",
-  "🧩 Énigmes royales : 20 défis avec des cartes et un objectif fixes. Jusqu'à 👑👑👑 pour une résolution rapide ; l'énigme suivante se débloque après la précédente.",
-  "📤 Le résultat d'un mode peut être partagé en image.",
-  "Ta campagne en cours est mise de côté pendant les modes rapides et revient ensuite inchangée.",
-  "Les titres en ukrainien ont maintenant une police BD intégrée avec le cyrillique."
+  "Le menu principal tient désormais sur un seul écran de téléphone sans défilement – en-tête plus petit, boutons et tuiles plus bas.",
+  "Les titres de l'écran d'accueil et du menu rétrécissent s'ils ne tiennent pas en largeur (cyrillique, longs mots hongrois).",
+  "Corrigé : les titres ukrainiens utilisent vraiment la police BD avec le cyrillique.",
+  "Sur les écrans étroits, plus rien ne déborde sur le côté (barre du haut, tuiles, bouton Tout activer)."
  ],
  "notes_es": [
-  "📅 Desafío diario: cada día un mazo nuevo, igual para todos. 10 rondas, récord personal y racha de días seguidos.",
-  "⏱️ Partida rápida: 12 rondas sin campaña con expansiones al azar. Se juega por puntos.",
-  "🧩 Acertijos reales: 20 retos con cartas y objetivo fijos. Hasta 👑👑👑 por resolverlos rápido; el siguiente se desbloquea al resolver el anterior.",
-  "📤 El resultado de un modo se puede compartir como imagen.",
-  "Tu campaña en curso se aparta durante los modos rápidos y luego vuelve sin cambios.",
-  "Los títulos en ucraniano tienen ahora una fuente de cómic incluida con cirílico."
+  "El menú principal ahora cabe en una sola pantalla del móvil sin desplazarse: cabecera más pequeña, botones y mosaicos más bajos.",
+  "Los títulos de la pantalla de inicio y del menú se reducen cuando no caben a lo ancho (cirílico, palabras húngaras largas).",
+  "Corregido: los títulos en ucraniano ahora usan de verdad la fuente de cómic con cirílico.",
+  "En pantallas estrechas ya nada se sale por los lados (barra superior, mosaicos, botón Activar todo)."
  ],
  "notes_uk": [
-  "📅 Щоденний виклик: щодня нова колода, однакова для всіх. 10 раундів, особистий рекорд і серія днів поспіль.",
-  "⏱️ Швидка гра: 12 раундів без кампанії з випадковими доповненнями. Граєш на бали.",
-  "🧩 Королівські головоломки: 20 завдань зі сталими картами й метою. За швидке розв'язання до 👑👑👑; наступна відкривається після попередньої.",
-  "📤 Результатом режиму можна поділитися як зображенням.",
-  "Розпочата кампанія під час швидких режимів відкладається й потім повертається без змін.",
-  "Українські заголовки тепер мають вбудований коміксовий шрифт з кирилицею."
+  "Головне меню тепер вміщується на один екран телефона без прокручування – менша шапка, нижчі кнопки й плитки.",
+  "Заголовки на заставці та в меню зменшуються, якщо не вміщуються по ширині (кирилиця, довгі угорські слова).",
+  "Виправлено: українські заголовки тепер справді використовують коміксовий шрифт із кирилицею.",
+  "На вузьких екранах більше нічого не виходить за край (верхня панель, плитки, кнопка «Активувати все»)."
  ],
  "notes_hu": [
-  "📅 Napi kihívás: minden nap új pakli, mindenkinek ugyanaz. 10 kör, egyéni rekord és egymást követő napok sorozata.",
-  "⏱️ Gyors játék: 12 kör hadjárat nélkül, véletlen kiegészítőkkel. Pontokért megy a játék.",
-  "🧩 Királyi rejtvények: 20 feladat rögzített kártyákkal és céllal. Gyors megoldásért akár 👑👑👑; a következő rejtvény az előző megoldása után nyílik meg.",
-  "📤 A mód eredménye képként megosztható.",
-  "A folyamatban lévő hadjárat a gyors módok idejére félrekerül, utána változatlanul visszatér.",
-  "Az ukrán címekhez most beépített, cirill betűs képregényes betűtípus tartozik."
+  "A főmenü most görgetés nélkül elfér egy telefonképernyőn – kisebb fejléc, alacsonyabb gombok és csempék.",
+  "A nyitóképernyő és a menü címei összemennek, ha nem férnének el szélességben (cirill betűk, hosszú magyar szavak).",
+  "Javítva: az ukrán címek most tényleg a cirill betűs képregényes betűtípust használják.",
+  "Keskeny kijelzőn már semmi sem lóg ki oldalra (felső sáv, csempék, Mind aktiválása gomb)."
  ],
  "notes_sv": [
-  "📅 Dagens utmaning: varje dag en ny kortlek, samma för alla. 10 omgångar, personligt rekord och en svit av dagar i rad.",
-  "⏱️ Snabbspel: 12 omgångar utan kampanj med slumpade expansioner. Man spelar om poäng.",
-  "🧩 Kungliga gåtor: 20 uppgifter med fasta kort och ett mål. Snabb lösning ger upp till 👑👑👑; nästa gåta låses upp när den förra är löst.",
-  "📤 Resultatet från ett läge kan delas som bild.",
-  "Din pågående kampanj läggs undan under snabblägena och kommer sedan tillbaka oförändrad.",
-  "Ukrainska rubriker har nu ett inbyggt serietypsnitt med kyrilliska."
+  "Huvudmenyn får nu plats på en mobilskärm utan att scrolla – mindre sidhuvud, lägre knappar och rutor.",
+  "Rubriker på startskärmen och i menyn krymper när de inte får plats på bredden (kyrilliska, långa ungerska ord).",
+  "Åtgärdat: ukrainska rubriker använder nu verkligen serietypsnittet med kyrilliska.",
+  "På smala skärmar flödar inget längre över åt sidan (övre fältet, rutor, knappen Aktivera alla)."
  ]
 }
