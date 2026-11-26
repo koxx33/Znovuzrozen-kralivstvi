@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.12.1
+# 👑 Znovuzrození království v0.12.2
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,11 +23,14 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.12.1
-- Hlavní menu se na telefonu vejde na jednu obrazovku bez posouvání – menší hlavička, nižší tlačítka a dlaždice.
-- Nadpisy na úvodní obrazovce a v menu se zmenší, když by se do šířky nevešly (azbuka, dlouhá maďarská slova).
-- Opraveno: ukrajinské nadpisy teď opravdu používají komiksové písmo s azbukou.
-- Na úzkých displejích už nic nepřetéká do strany (horní lišta, dlaždice, tlačítko Aktivovat vše).
+## Novinky ve verzi 0.12.2
+- 🗺️ Nová mapa říše: je vyšší a posouvá se prstem, takže ikony jsou větší a nepřekrývají se.
+- Karty mají na mapě své okrsky – Lomy a dílny, Pole a lesy, Trh a město, Stráž a magie a Přístav. Nepřátelé táboří na Hranicích.
+- Pod každou ikonou je jméno karty. Použitá karta dostane zelenou fajfku místo zešednutí, úroveň ukazuje štítek ★.
+- Filtry nad mapou: Vše, Budovy, Nepřátelé a Volné (karty, které v tomto kole ještě můžeš použít).
+- Zamčený kraj odemkneš klepnutím přímo na mapě. Po otevření se mapa sama posune k nepříteli.
+- 🏛️ Síň slávy má záložky Kampaně, Denní, Rychlá, Hádanky a Úspěchy – rekordy, série dnů a nejlepší hry.
+- 🏅 13 nových úspěchů za denní výzvu, rychlou hru a hádanky.
 
 ## Soubory
 | Soubor | K čemu je |
