@@ -1,5 +1,5 @@
 // Znovuzrození království – service worker (offline + aktualizace jen po potvrzení)
-const VERSION='0.12.3';
+const VERSION='0.12.5';
 const CACHE='znovuzrozeni-kralovstvi-'+VERSION;
 const FONTS='znovuzrozeni-kralovstvi-fonty';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png','./apple-touch-icon.png'];

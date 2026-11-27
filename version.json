@@ -1,57 +1,66 @@
 {
- "version": "0.12.3",
+ "version": "0.12.5",
  "notes": [
-  "🗺️ Mapa říše je zase opravdová krajina – hory, hvozd, močály, řeka, hrad a moře – a je dvakrát větší.",
-  "Mapu posouváš prstem do všech stran, dvěma prsty ji přiblížíš nebo oddálíš, dvojím klepnutím přiblížíš. Tlačítka + / − / ⤢ fungují taky.",
-  "Okrsky jsou místa v krajině: lomy pod horami, pole a lesy u řeky, trh u hradu, stráž za řekou a lodě v přístavu.",
-  "Jména, fajfky u použitých karet, štítky ★, filtry i odemykání krajů klepnutím zůstaly. Jména se při oddálení schovají."
+  "🗺️ Živá mapa: karty, které v tomto kole ještě můžeš použít, jemně svítí. Klepni na ně a rovnou je aktivuj nebo vylepši – mapa se hned překreslí.",
+  "Nepřátelé na hranicích mají červenou šipku, která ukazuje, že táhnou na hrad.",
+  "Nová karta na mapě vyroste z prachu, vylepšení zazáří a poražený nepřítel zmizí v obláčku s BUM!",
+  "Mapa si pamatuje, kde jsi ji naposledy nechal. K novému nepříteli se ale posune sama.",
+  "Při přiblížení ukazuje minimapa v rohu, kde zrovna jsi. Klepnutím do ní se tam přesuneš."
  ],
  "notes_en": [
-  "🗺️ The realm map is a real landscape again – mountains, forest, marshes, river, castle and sea – and it's twice as big.",
-  "Drag the map in any direction with one finger, pinch with two to zoom in or out, double-tap to zoom in. The + / − / ⤢ buttons work too.",
-  "Districts are places in the landscape: quarries below the mountains, fields and woods by the river, the market by the castle, the guard across the river and ships in the harbour.",
-  "Names, ticks on used cards, ★ tags, filters and unlocking regions by tapping all stay. Names hide when you zoom out."
+  "🗺️ Living map: cards you can still use this round glow softly. Tap them to activate or upgrade right away – the map redraws instantly.",
+  "Enemies on the border have a red arrow showing they are marching on the castle.",
+  "A new card grows out of the dust on the map, an upgrade shines and a defeated enemy vanishes in a puff with a BOOM!",
+  "The map remembers where you left it, but scrolls to a new enemy by itself.",
+  "When zoomed in, a minimap in the corner shows where you are. Tap it to jump there."
  ],
  "notes_de": [
-  "🗺️ Die Reichskarte ist wieder eine echte Landschaft – Berge, Wald, Sümpfe, Fluss, Burg und Meer – und doppelt so groß.",
-  "Verschiebe die Karte mit einem Finger in alle Richtungen, zoome mit zwei Fingern, tippe doppelt zum Vergrößern. Die Tasten + / − / ⤢ gehen auch.",
-  "Viertel sind Orte in der Landschaft: Steinbrüche unter den Bergen, Felder und Wälder am Fluss, der Markt bei der Burg, die Wache hinter dem Fluss und Schiffe im Hafen.",
-  "Namen, Haken bei benutzten Karten, ★-Schilder, Filter und das Freischalten von Regionen per Tippen bleiben. Beim Herauszoomen verschwinden die Namen."
+  "🗺️ Lebendige Karte: Karten, die du in dieser Runde noch nutzen kannst, leuchten sanft. Tippe sie an, um sie sofort zu aktivieren oder zu verbessern – die Karte zeichnet sich gleich neu.",
+  "Feinde an der Grenze haben einen roten Pfeil, der zeigt, dass sie auf die Burg zumarschieren.",
+  "Eine neue Karte wächst auf der Karte aus dem Staub, eine Verbesserung strahlt und ein besiegter Feind verschwindet in einer Wolke mit BUMM!",
+  "Die Karte merkt sich, wo du sie verlassen hast, scrollt aber von selbst zu einem neuen Feind.",
+  "Beim Hineinzoomen zeigt eine Minikarte in der Ecke, wo du gerade bist. Tippe darauf, um dorthin zu springen."
  ],
  "notes_pl": [
-  "🗺️ Mapa królestwa znów jest prawdziwym krajobrazem – góry, puszcza, mokradła, rzeka, zamek i morze – i jest dwa razy większa.",
-  "Przesuwaj mapę palcem w każdą stronę, dwoma palcami przybliżaj i oddalaj, dwukrotne stuknięcie przybliża. Działają też przyciski + / − / ⤢.",
-  "Dzielnice to miejsca w krajobrazie: kamieniołomy pod górami, pola i lasy przy rzece, targ przy zamku, straż za rzeką i statki w porcie.",
-  "Nazwy, znaczki przy użytych kartach, etykiety ★, filtry i odblokowywanie krain stuknięciem zostały. Przy oddaleniu nazwy się chowają."
+  "🗺️ Żywa mapa: karty, których w tej rundzie możesz jeszcze użyć, delikatnie świecą. Stuknij je i od razu aktywuj lub ulepsz – mapa natychmiast się odświeży.",
+  "Wrogowie na granicy mają czerwoną strzałkę pokazującą, że ciągną na zamek.",
+  "Nowa karta wyrasta na mapie z kurzu, ulepszenie rozbłyska, a pokonany wróg znika w obłoczku z BUM!",
+  "Mapa pamięta, gdzie ją zostawiłeś, ale do nowego wroga przewinie się sama.",
+  "Po przybliżeniu minimapa w rogu pokazuje, gdzie jesteś. Stuknij w nią, aby tam przeskoczyć."
  ],
  "notes_fr": [
-  "🗺️ La carte du royaume est de nouveau un vrai paysage – montagnes, forêt, marais, rivière, château et mer – et elle est deux fois plus grande.",
-  "Fais glisser la carte d'un doigt dans tous les sens, zoome avec deux doigts, touche deux fois pour zoomer. Les boutons + / − / ⤢ marchent aussi.",
-  "Les quartiers sont des lieux du paysage : carrières sous les montagnes, champs et bois près de la rivière, marché près du château, garde de l'autre côté de la rivière et navires au port.",
-  "Les noms, les coches des cartes utilisées, les étiquettes ★, les filtres et le déblocage des régions d'une touche restent. Les noms se cachent quand tu dézoomes."
+  "🗺️ Carte vivante : les cartes encore utilisables ce tour brillent doucement. Touche-les pour les activer ou les améliorer tout de suite – la carte se redessine aussitôt.",
+  "Les ennemis à la frontière ont une flèche rouge qui montre qu'ils marchent sur le château.",
+  "Une nouvelle carte sort de la poussière, une amélioration étincelle et un ennemi vaincu disparaît dans un nuage avec un BOUM !",
+  "La carte se souvient de l'endroit où tu l'as laissée, mais défile seule jusqu'à un nouvel ennemi.",
+  "En zoomant, une mini-carte dans le coin montre où tu es. Touche-la pour t'y rendre."
  ],
  "notes_es": [
-  "🗺️ El mapa del reino vuelve a ser un paisaje de verdad – montañas, bosque, pantanos, río, castillo y mar – y es el doble de grande.",
-  "Arrastra el mapa en cualquier dirección con un dedo, pellizca con dos para acercar o alejar, toca dos veces para acercar. También funcionan los botones + / − / ⤢.",
-  "Los barrios son lugares del paisaje: canteras bajo las montañas, campos y bosques junto al río, el mercado junto al castillo, la guardia al otro lado del río y barcos en el puerto.",
-  "Se mantienen los nombres, las marcas de cartas usadas, las etiquetas ★, los filtros y el desbloqueo de regiones con un toque. Al alejar, los nombres se ocultan."
+  "🗺️ Mapa vivo: las cartas que aún puedes usar esta ronda brillan suavemente. Tócalas para activarlas o mejorarlas al momento: el mapa se redibuja enseguida.",
+  "Los enemigos en la frontera tienen una flecha roja que muestra que marchan hacia el castillo.",
+  "Una carta nueva brota del polvo en el mapa, una mejora resplandece y un enemigo derrotado desaparece en una nube con un ¡BUM!",
+  "El mapa recuerda dónde lo dejaste, pero se desplaza solo hasta un enemigo nuevo.",
+  "Al acercar, un minimapa en la esquina muestra dónde estás. Tócalo para saltar allí."
  ],
  "notes_uk": [
-  "🗺️ Мапа королівства знову справжній краєвид – гори, пуща, болота, річка, замок і море – і вдвічі більша.",
-  "Пересувай мапу пальцем у будь-який бік, двома пальцями наближай і віддаляй, подвійний дотик наближає. Кнопки + / − / ⤢ теж працюють.",
-  "Квартали – це місця в краєвиді: каменоломні під горами, поля й ліси біля річки, ринок біля замку, варта за річкою й кораблі в порту.",
-  "Назви, позначки на використаних картах, ярлики ★, фільтри й відкриття країв дотиком залишилися. Під час віддалення назви ховаються."
+  "🗺️ Жива мапа: карти, які ще можна використати в цьому раунді, м'яко світяться. Торкнись їх і одразу активуй або покращ – мапа відразу перемалюється.",
+  "Вороги на кордоні мають червону стрілку, що показує: вони йдуть на замок.",
+  "Нова карта виростає на мапі з пилу, покращення спалахує, а переможений ворог зникає в хмарці з БАХ!",
+  "Мапа пам'ятає, де ти її залишив, але до нового ворога прокрутиться сама.",
+  "Під час наближення мінімапа в кутку показує, де ти зараз. Торкнись її, щоб перейти туди."
  ],
  "notes_hu": [
-  "🗺️ A birodalom térképe újra igazi táj – hegyek, erdő, mocsarak, folyó, vár és tenger –, és kétszer akkora.",
-  "A térképet egy ujjal bármerre húzhatod, két ujjal nagyíthatod és kicsinyítheted, dupla koppintással nagyítasz. A + / − / ⤢ gombok is működnek.",
-  "A negyedek helyek a tájban: kőfejtők a hegyek alatt, mezők és erdők a folyónál, piac a várnál, őrség a folyón túl és hajók a kikötőben.",
-  "A nevek, a használt kártyák pipái, a ★ címkék, a szűrők és a vidékek koppintásos megnyitása megmaradt. Kicsinyítéskor a nevek elrejtőznek."
+  "🗺️ Élő térkép: a körben még használható kártyák halványan világítanak. Koppints rájuk, és rögtön aktiválhatod vagy fejlesztheted őket – a térkép azonnal frissül.",
+  "A határon álló ellenségeknél piros nyíl mutatja, hogy a vár felé vonulnak.",
+  "Az új kártya porfelhőből nő ki a térképen, a fejlesztés felragyog, a legyőzött ellenség pedig BUMM! kíséretében felhőben tűnik el.",
+  "A térkép megjegyzi, hol hagytad, de az új ellenséghez magától odagörget.",
+  "Nagyításkor a sarokban lévő minitérkép mutatja, hol vagy. Koppints rá, hogy odaugorj."
  ],
  "notes_sv": [
-  "🗺️ Rikskartan är ett riktigt landskap igen – berg, skog, träsk, flod, borg och hav – och den är dubbelt så stor.",
-  "Dra kartan åt alla håll med ett finger, nyp med två för att zooma, dubbeltryck för att zooma in. Knapparna + / − / ⤢ fungerar också.",
-  "Kvarteren är platser i landskapet: stenbrott under bergen, fält och skogar vid floden, marknaden vid borgen, vakten på andra sidan floden och skepp i hamnen.",
-  "Namn, bockar på använda kort, ★-etiketter, filter och upplåsning av landskap med ett tryck finns kvar. Namnen döljs när du zoomar ut."
+  "🗺️ Levande karta: kort du fortfarande kan använda den här rundan lyser svagt. Tryck på dem för att aktivera eller uppgradera direkt – kartan ritas om genast.",
+  "Fiender vid gränsen har en röd pil som visar att de tågar mot borgen.",
+  "Ett nytt kort växer upp ur dammet på kartan, en uppgradering glänser och en besegrad fiende försvinner i ett moln med ett BOM!",
+  "Kartan minns var du lämnade den, men scrollar själv till en ny fiende.",
+  "När du zoomar in visar en minikarta i hörnet var du är. Tryck på den för att hoppa dit."
  ]
 }

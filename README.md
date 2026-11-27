@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.12.3
+# 👑 Znovuzrození království v0.12.5
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,11 +23,12 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.12.3
-- 🗺️ Mapa říše je zase opravdová krajina – hory, hvozd, močály, řeka, hrad a moře – a je dvakrát větší.
-- Mapu posouváš prstem do všech stran, dvěma prsty ji přiblížíš nebo oddálíš, dvojím klepnutím přiblížíš. Tlačítka + / − / ⤢ fungují taky.
-- Okrsky jsou místa v krajině: lomy pod horami, pole a lesy u řeky, trh u hradu, stráž za řekou a lodě v přístavu.
-- Jména, fajfky u použitých karet, štítky ★, filtry i odemykání krajů klepnutím zůstaly. Jména se při oddálení schovají.
+## Novinky ve verzi 0.12.5
+- 🗺️ Živá mapa: karty, které v tomto kole ještě můžeš použít, jemně svítí. Klepni na ně a rovnou je aktivuj nebo vylepši – mapa se hned překreslí.
+- Nepřátelé na hranicích mají červenou šipku, která ukazuje, že táhnou na hrad.
+- Nová karta na mapě vyroste z prachu, vylepšení zazáří a poražený nepřítel zmizí v obláčku s BUM!
+- Mapa si pamatuje, kde jsi ji naposledy nechal. K novému nepříteli se ale posune sama.
+- Při přiblížení ukazuje minimapa v rohu, kde zrovna jsi. Klepnutím do ní se tam přesuneš.
 
 ## Soubory
 | Soubor | K čemu je |
