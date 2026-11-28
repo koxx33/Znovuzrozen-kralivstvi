@@ -1,66 +1,57 @@
 {
- "version": "0.12.5",
+ "version": "0.12.6",
  "notes": [
-  "🗺️ Živá mapa: karty, které v tomto kole ještě můžeš použít, jemně svítí. Klepni na ně a rovnou je aktivuj nebo vylepši – mapa se hned překreslí.",
-  "Nepřátelé na hranicích mají červenou šipku, která ukazuje, že táhnou na hrad.",
-  "Nová karta na mapě vyroste z prachu, vylepšení zazáří a poražený nepřítel zmizí v obláčku s BUM!",
-  "Mapa si pamatuje, kde jsi ji naposledy nechal. K novému nepříteli se ale posune sama.",
-  "Při přiblížení ukazuje minimapa v rohu, kde zrovna jsi. Klepnutím do ní se tam přesuneš."
+  "🎨 Nové kreslené ilustrace všech karet a událostí, ikony karet na mapě a ikony surovin.",
+  "🗺️ Mapa říše je teď malovaná krajina.",
+  "Obrázky se načítají ze složky obrazky/ vedle hry. Po prvním zobrazení fungují i bez internetu. Když složka chybí, hra kreslí obrázky jako dřív.",
+  "Stuha s názvem karty je zarovnaná do rámečku a dlouhé názvy se zmenší, aby se vešly."
  ],
  "notes_en": [
-  "🗺️ Living map: cards you can still use this round glow softly. Tap them to activate or upgrade right away – the map redraws instantly.",
-  "Enemies on the border have a red arrow showing they are marching on the castle.",
-  "A new card grows out of the dust on the map, an upgrade shines and a defeated enemy vanishes in a puff with a BOOM!",
-  "The map remembers where you left it, but scrolls to a new enemy by itself.",
-  "When zoomed in, a minimap in the corner shows where you are. Tap it to jump there."
+  "🎨 New hand-drawn illustrations for all cards and events, card icons on the map and resource icons.",
+  "🗺️ The realm map is now a painted landscape.",
+  "Images load from the obrazky/ folder next to the game. After the first view they work offline too. If the folder is missing, the game draws pictures as before.",
+  "The card name banner fits inside the frame and long names shrink to fit."
  ],
  "notes_de": [
-  "🗺️ Lebendige Karte: Karten, die du in dieser Runde noch nutzen kannst, leuchten sanft. Tippe sie an, um sie sofort zu aktivieren oder zu verbessern – die Karte zeichnet sich gleich neu.",
-  "Feinde an der Grenze haben einen roten Pfeil, der zeigt, dass sie auf die Burg zumarschieren.",
-  "Eine neue Karte wächst auf der Karte aus dem Staub, eine Verbesserung strahlt und ein besiegter Feind verschwindet in einer Wolke mit BUMM!",
-  "Die Karte merkt sich, wo du sie verlassen hast, scrollt aber von selbst zu einem neuen Feind.",
-  "Beim Hineinzoomen zeigt eine Minikarte in der Ecke, wo du gerade bist. Tippe darauf, um dorthin zu springen."
+  "🎨 Neue gezeichnete Illustrationen aller Karten und Ereignisse, Kartensymbole auf der Karte und Rohstoffsymbole.",
+  "🗺️ Die Reichskarte ist jetzt eine gemalte Landschaft.",
+  "Bilder werden aus dem Ordner obrazky/ neben dem Spiel geladen. Nach dem ersten Anzeigen funktionieren sie auch offline. Fehlt der Ordner, zeichnet das Spiel die Bilder wie bisher.",
+  "Das Namensband der Karte passt in den Rahmen, lange Namen werden verkleinert."
  ],
  "notes_pl": [
-  "🗺️ Żywa mapa: karty, których w tej rundzie możesz jeszcze użyć, delikatnie świecą. Stuknij je i od razu aktywuj lub ulepsz – mapa natychmiast się odświeży.",
-  "Wrogowie na granicy mają czerwoną strzałkę pokazującą, że ciągną na zamek.",
-  "Nowa karta wyrasta na mapie z kurzu, ulepszenie rozbłyska, a pokonany wróg znika w obłoczku z BUM!",
-  "Mapa pamięta, gdzie ją zostawiłeś, ale do nowego wroga przewinie się sama.",
-  "Po przybliżeniu minimapa w rogu pokazuje, gdzie jesteś. Stuknij w nią, aby tam przeskoczyć."
+  "🎨 Nowe rysowane ilustracje wszystkich kart i wydarzeń, ikony kart na mapie i ikony surowców.",
+  "🗺️ Mapa królestwa to teraz malowany krajobraz.",
+  "Obrazy wczytują się z folderu obrazky/ obok gry. Po pierwszym wyświetleniu działają też offline. Gdy folderu brak, gra rysuje obrazy jak dotąd.",
+  "Wstęga z nazwą karty mieści się w ramce, a długie nazwy się zmniejszają."
  ],
  "notes_fr": [
-  "🗺️ Carte vivante : les cartes encore utilisables ce tour brillent doucement. Touche-les pour les activer ou les améliorer tout de suite – la carte se redessine aussitôt.",
-  "Les ennemis à la frontière ont une flèche rouge qui montre qu'ils marchent sur le château.",
-  "Une nouvelle carte sort de la poussière, une amélioration étincelle et un ennemi vaincu disparaît dans un nuage avec un BOUM !",
-  "La carte se souvient de l'endroit où tu l'as laissée, mais défile seule jusqu'à un nouvel ennemi.",
-  "En zoomant, une mini-carte dans le coin montre où tu es. Touche-la pour t'y rendre."
+  "🎨 Nouvelles illustrations dessinées pour toutes les cartes et tous les événements, icônes des cartes sur la carte et icônes des ressources.",
+  "🗺️ La carte du royaume est désormais un paysage peint.",
+  "Les images se chargent depuis le dossier obrazky/ à côté du jeu. Après le premier affichage, elles fonctionnent aussi hors ligne. Sans ce dossier, le jeu dessine les images comme avant.",
+  "Le bandeau du nom de la carte tient dans le cadre et les noms longs rétrécissent."
  ],
  "notes_es": [
-  "🗺️ Mapa vivo: las cartas que aún puedes usar esta ronda brillan suavemente. Tócalas para activarlas o mejorarlas al momento: el mapa se redibuja enseguida.",
-  "Los enemigos en la frontera tienen una flecha roja que muestra que marchan hacia el castillo.",
-  "Una carta nueva brota del polvo en el mapa, una mejora resplandece y un enemigo derrotado desaparece en una nube con un ¡BUM!",
-  "El mapa recuerda dónde lo dejaste, pero se desplaza solo hasta un enemigo nuevo.",
-  "Al acercar, un minimapa en la esquina muestra dónde estás. Tócalo para saltar allí."
+  "🎨 Nuevas ilustraciones dibujadas de todas las cartas y eventos, iconos de cartas en el mapa e iconos de recursos.",
+  "🗺️ El mapa del reino es ahora un paisaje pintado.",
+  "Las imágenes se cargan desde la carpeta obrazky/ junto al juego. Tras verlas por primera vez funcionan también sin conexión. Si falta la carpeta, el juego dibuja las imágenes como antes.",
+  "La cinta con el nombre de la carta cabe en el marco y los nombres largos se reducen."
  ],
  "notes_uk": [
-  "🗺️ Жива мапа: карти, які ще можна використати в цьому раунді, м'яко світяться. Торкнись їх і одразу активуй або покращ – мапа відразу перемалюється.",
-  "Вороги на кордоні мають червону стрілку, що показує: вони йдуть на замок.",
-  "Нова карта виростає на мапі з пилу, покращення спалахує, а переможений ворог зникає в хмарці з БАХ!",
-  "Мапа пам'ятає, де ти її залишив, але до нового ворога прокрутиться сама.",
-  "Під час наближення мінімапа в кутку показує, де ти зараз. Торкнись її, щоб перейти туди."
+  "🎨 Нові намальовані ілюстрації всіх карт і подій, іконки карт на мапі та іконки ресурсів.",
+  "🗺️ Мапа королівства тепер мальований краєвид.",
+  "Зображення завантажуються з теки obrazky/ поруч із грою. Після першого показу працюють і без інтернету. Якщо теки немає, гра малює зображення як раніше.",
+  "Стрічка з назвою карти вміщується в рамку, а довгі назви зменшуються."
  ],
  "notes_hu": [
-  "🗺️ Élő térkép: a körben még használható kártyák halványan világítanak. Koppints rájuk, és rögtön aktiválhatod vagy fejlesztheted őket – a térkép azonnal frissül.",
-  "A határon álló ellenségeknél piros nyíl mutatja, hogy a vár felé vonulnak.",
-  "Az új kártya porfelhőből nő ki a térképen, a fejlesztés felragyog, a legyőzött ellenség pedig BUMM! kíséretében felhőben tűnik el.",
-  "A térkép megjegyzi, hol hagytad, de az új ellenséghez magától odagörget.",
-  "Nagyításkor a sarokban lévő minitérkép mutatja, hol vagy. Koppints rá, hogy odaugorj."
+  "🎨 Új rajzolt illusztrációk minden kártyához és eseményhez, kártyaikonok a térképen és nyersanyag-ikonok.",
+  "🗺️ A birodalom térképe most festett táj.",
+  "A képek a játék melletti obrazky/ mappából töltődnek be. Az első megjelenítés után offline is működnek. Ha a mappa hiányzik, a játék úgy rajzolja a képeket, mint eddig.",
+  "A kártya nevét tartalmazó szalag belefér a keretbe, a hosszú nevek pedig összemennek."
  ],
  "notes_sv": [
-  "🗺️ Levande karta: kort du fortfarande kan använda den här rundan lyser svagt. Tryck på dem för att aktivera eller uppgradera direkt – kartan ritas om genast.",
-  "Fiender vid gränsen har en röd pil som visar att de tågar mot borgen.",
-  "Ett nytt kort växer upp ur dammet på kartan, en uppgradering glänser och en besegrad fiende försvinner i ett moln med ett BOM!",
-  "Kartan minns var du lämnade den, men scrollar själv till en ny fiende.",
-  "När du zoomar in visar en minikarta i hörnet var du är. Tryck på den för att hoppa dit."
+  "🎨 Nya tecknade illustrationer till alla kort och händelser, kortikoner på kartan och resursikoner.",
+  "🗺️ Rikskartan är nu ett målat landskap.",
+  "Bilderna laddas från mappen obrazky/ bredvid spelet. Efter första visningen fungerar de även offline. Saknas mappen ritar spelet bilderna som förut.",
+  "Bandet med kortets namn ryms i ramen och långa namn krymper."
  ]
 }

@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.12.5
+# 👑 Znovuzrození království v0.12.6
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -23,12 +23,16 @@ Nahraj soubory z nového ZIPu přes ty staré (nejdůležitější jsou `index.h
 Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje ji **jen po potvrzení**
 (*Aktualizovat / Teď ne / Přeskočit tuto verzi*). Rozehraná kampaň zůstane uložená.
 
-## Novinky ve verzi 0.12.5
-- 🗺️ Živá mapa: karty, které v tomto kole ještě můžeš použít, jemně svítí. Klepni na ně a rovnou je aktivuj nebo vylepši – mapa se hned překreslí.
-- Nepřátelé na hranicích mají červenou šipku, která ukazuje, že táhnou na hrad.
-- Nová karta na mapě vyroste z prachu, vylepšení zazáří a poražený nepřítel zmizí v obláčku s BUM!
-- Mapa si pamatuje, kde jsi ji naposledy nechal. K novému nepříteli se ale posune sama.
-- Při přiblížení ukazuje minimapa v rohu, kde zrovna jsi. Klepnutím do ní se tam přesuneš.
+## Ilustrace
+
+Kreslené obrázky karet, událostí, ikony a mapa jsou ve složce `obrazky/` (WebP), která se nahrává **jen jednou**
+a do dalších verzí se už nepřidává. Když složka chybí, hra kreslí obrázky jako dřív.
+
+## Novinky ve verzi 0.12.6
+- 🎨 Nové kreslené ilustrace všech karet a událostí, ikony karet na mapě a ikony surovin.
+- 🗺️ Mapa říše je teď malovaná krajina.
+- Obrázky se načítají ze složky obrazky/ vedle hry. Po prvním zobrazení fungují i bez internetu. Když složka chybí, hra kreslí obrázky jako dřív.
+- Stuha s názvem karty je zarovnaná do rámečku a dlouhé názvy se zmenší, aby se vešly.
 
 ## Soubory
 | Soubor | K čemu je |
