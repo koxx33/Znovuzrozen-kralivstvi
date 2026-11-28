@@ -1,4 +1,4 @@
-# 👑 Znovuzrození království v0.12.6
+# 👑 Znovuzrození království v0.12.7
 
 Komiksová legacy karetní hra v jednom HTML souboru. Obnov zchudlé království,
 vylepšuj kreslené karty, lep trvalé pečetě, plň deset kapitol kampaně a vyhraj Válku o korunu.
@@ -28,11 +28,8 @@ Nainstalovaná hra novou verzi sama najde, ukáže co je nového a nainstaluje j
 Kreslené obrázky karet, událostí, ikony a mapa jsou ve složce `obrazky/` (WebP), která se nahrává **jen jednou**
 a do dalších verzí se už nepřidává. Když složka chybí, hra kreslí obrázky jako dřív.
 
-## Novinky ve verzi 0.12.6
-- 🎨 Nové kreslené ilustrace všech karet a událostí, ikony karet na mapě a ikony surovin.
-- 🗺️ Mapa říše je teď malovaná krajina.
-- Obrázky se načítají ze složky obrazky/ vedle hry. Po prvním zobrazení fungují i bez internetu. Když složka chybí, hra kreslí obrázky jako dřív.
-- Stuha s názvem karty je zarovnaná do rámečku a dlouhé názvy se zmenší, aby se vešly.
+## Novinky ve verzi 0.12.7
+- 🏅 Hranice úspěchů doladěné podle zkušebních her: Hvězda dne teď chce 90 bodů v denní výzvě, nový Rychlý triumf 120 bodů v rychlé hře. Už získané úspěchy zůstávají.
 
 ## Soubory
 | Soubor | K čemu je |

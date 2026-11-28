@@ -1,5 +1,5 @@
 // Znovuzrození království – service worker (offline + aktualizace jen po potvrzení)
-const VERSION='0.12.6';
+const VERSION='0.12.7';
 const CACHE='znovuzrozeni-kralovstvi-'+VERSION;
 const FONTS='znovuzrozeni-kralovstvi-fonty';
 const IMGS='znovuzrozeni-kralovstvi-obrazky';

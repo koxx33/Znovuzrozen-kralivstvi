@@ -1,57 +1,30 @@
 {
- "version": "0.12.6",
+ "version": "0.12.7",
  "notes": [
-  "🎨 Nové kreslené ilustrace všech karet a událostí, ikony karet na mapě a ikony surovin.",
-  "🗺️ Mapa říše je teď malovaná krajina.",
-  "Obrázky se načítají ze složky obrazky/ vedle hry. Po prvním zobrazení fungují i bez internetu. Když složka chybí, hra kreslí obrázky jako dřív.",
-  "Stuha s názvem karty je zarovnaná do rámečku a dlouhé názvy se zmenší, aby se vešly."
+  "🏅 Hranice úspěchů doladěné podle zkušebních her: Hvězda dne teď chce 90 bodů v denní výzvě, nový Rychlý triumf 120 bodů v rychlé hře. Už získané úspěchy zůstávají."
  ],
  "notes_en": [
-  "🎨 New hand-drawn illustrations for all cards and events, card icons on the map and resource icons.",
-  "🗺️ The realm map is now a painted landscape.",
-  "Images load from the obrazky/ folder next to the game. After the first view they work offline too. If the folder is missing, the game draws pictures as before.",
-  "The card name banner fits inside the frame and long names shrink to fit."
+  "🏅 Achievement thresholds tuned by test games: Star of the Day now needs 90 points in the Daily Challenge, the new Quick Triumph needs 120 points in a Quick Game. Achievements you already earned stay."
  ],
  "notes_de": [
-  "🎨 Neue gezeichnete Illustrationen aller Karten und Ereignisse, Kartensymbole auf der Karte und Rohstoffsymbole.",
-  "🗺️ Die Reichskarte ist jetzt eine gemalte Landschaft.",
-  "Bilder werden aus dem Ordner obrazky/ neben dem Spiel geladen. Nach dem ersten Anzeigen funktionieren sie auch offline. Fehlt der Ordner, zeichnet das Spiel die Bilder wie bisher.",
-  "Das Namensband der Karte passt in den Rahmen, lange Namen werden verkleinert."
+  "🏅 Erfolgsgrenzen nach Testspielen angepasst: Star des Tages braucht jetzt 90 Punkte in der Täglichen Herausforderung, der neue Schnelle Triumph 120 Punkte im Schnellen Spiel. Bereits errungene Erfolge bleiben."
  ],
  "notes_pl": [
-  "🎨 Nowe rysowane ilustracje wszystkich kart i wydarzeń, ikony kart na mapie i ikony surowców.",
-  "🗺️ Mapa królestwa to teraz malowany krajobraz.",
-  "Obrazy wczytują się z folderu obrazky/ obok gry. Po pierwszym wyświetleniu działają też offline. Gdy folderu brak, gra rysuje obrazy jak dotąd.",
-  "Wstęga z nazwą karty mieści się w ramce, a długie nazwy się zmniejszają."
+  "🏅 Progi osiągnięć dostrojone na podstawie gier testowych: Gwiazda dnia wymaga teraz 90 punktów w wyzwaniu dnia, nowy Szybki triumf 120 punktów w szybkiej grze. Zdobyte osiągnięcia zostają."
  ],
  "notes_fr": [
-  "🎨 Nouvelles illustrations dessinées pour toutes les cartes et tous les événements, icônes des cartes sur la carte et icônes des ressources.",
-  "🗺️ La carte du royaume est désormais un paysage peint.",
-  "Les images se chargent depuis le dossier obrazky/ à côté du jeu. Après le premier affichage, elles fonctionnent aussi hors ligne. Sans ce dossier, le jeu dessine les images comme avant.",
-  "Le bandeau du nom de la carte tient dans le cadre et les noms longs rétrécissent."
+  "🏅 Seuils des succès ajustés grâce à des parties de test : Étoile du jour demande désormais 90 points au défi du jour, le nouveau Triomphe éclair 120 points en partie rapide. Les succès déjà obtenus restent."
  ],
  "notes_es": [
-  "🎨 Nuevas ilustraciones dibujadas de todas las cartas y eventos, iconos de cartas en el mapa e iconos de recursos.",
-  "🗺️ El mapa del reino es ahora un paisaje pintado.",
-  "Las imágenes se cargan desde la carpeta obrazky/ junto al juego. Tras verlas por primera vez funcionan también sin conexión. Si falta la carpeta, el juego dibuja las imágenes como antes.",
-  "La cinta con el nombre de la carta cabe en el marco y los nombres largos se reducen."
+  "🏅 Umbrales de logros ajustados con partidas de prueba: Estrella del día pide ahora 90 puntos en el desafío diario y el nuevo Triunfo rápido 120 puntos en una partida rápida. Los logros ya conseguidos se mantienen."
  ],
  "notes_uk": [
-  "🎨 Нові намальовані ілюстрації всіх карт і подій, іконки карт на мапі та іконки ресурсів.",
-  "🗺️ Мапа королівства тепер мальований краєвид.",
-  "Зображення завантажуються з теки obrazky/ поруч із грою. Після першого показу працюють і без інтернету. Якщо теки немає, гра малює зображення як раніше.",
-  "Стрічка з назвою карти вміщується в рамку, а довгі назви зменшуються."
+  "🏅 Пороги досягнень налаштовано за тестовими іграми: Зірка дня тепер потребує 90 очок у щоденному виклику, новий Швидкий тріумф – 120 очок у швидкій грі. Здобуті досягнення залишаються."
  ],
  "notes_hu": [
-  "🎨 Új rajzolt illusztrációk minden kártyához és eseményhez, kártyaikonok a térképen és nyersanyag-ikonok.",
-  "🗺️ A birodalom térképe most festett táj.",
-  "A képek a játék melletti obrazky/ mappából töltődnek be. Az első megjelenítés után offline is működnek. Ha a mappa hiányzik, a játék úgy rajzolja a képeket, mint eddig.",
-  "A kártya nevét tartalmazó szalag belefér a keretbe, a hosszú nevek pedig összemennek."
+  "🏅 Az eredmények határait tesztjátékok alapján hangoltuk: A nap csillagához most 90 pont kell a napi kihívásban, az új Gyors diadalhoz 120 pont egy gyors játékban. A már megszerzett eredmények megmaradnak."
  ],
  "notes_sv": [
-  "🎨 Nya tecknade illustrationer till alla kort och händelser, kortikoner på kartan och resursikoner.",
-  "🗺️ Rikskartan är nu ett målat landskap.",
-  "Bilderna laddas från mappen obrazky/ bredvid spelet. Efter första visningen fungerar de även offline. Saknas mappen ritar spelet bilderna som förut.",
-  "Bandet med kortets namn ryms i ramen och långa namn krymper."
+  "🏅 Gränserna för prestationer justerade efter testspel: Dagens stjärna kräver nu 90 poäng i dagliga utmaningen, nya Snabb triumf 120 poäng i ett snabbspel. Prestationer du redan fått finns kvar."
  ]
 }
